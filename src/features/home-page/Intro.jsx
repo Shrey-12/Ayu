@@ -6,6 +6,9 @@ import article from '../../assets/images/article.png'
 // import leafl from '../../assets/images/leafl.png'
 // import leafr from '../../assets/images/leafr.png'
 import AyuLogo from '../../assets/images/AyuLogo.png'
+import medimg from '../../assets/images/medimg.png'
+import plantimg from '../../assets/images/plantimg.png'
+import skincareimg from '../../assets/images/skincareimg.png'
 import welcome from '../../assets/images/welcome.jpg'
 import { Link } from 'react-router-dom';
 
@@ -83,6 +86,33 @@ const Intro = () => {
             </div>
        </div>
       </div>
+      <div className='home-products bg-customWhite' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: '20px'}}>
+        <h1 className='home-producthead-text ' style={{ fontSize: '2.3rem'}}>
+          OUR PRODUCTS
+        </h1>
+        <div className='flex justify-center'>
+          <div className='skincare ml-10 mr-10' style={{textAlign: 'center'}}>
+          
+            <img src={skincareimg} className="skincare-img" style={{ width: '150px', height: '100%' }} alt="Skincare"/>
+           <div className='home-rounded-box mt-5'>
+            <h1> SKINCARE</h1>
+          </div>
+          </div>
+          <div className='health ml-10 mr-10' style={{ textAlign: 'center'}}>
+            <img src={medimg} className="healthcare-img" style={{ width: '150px', height: '100%' }} alt="Health"/>
+            <div className='home-rounded-box mt-5'>
+            <h1> HEALTH</h1>
+            </div>
+          </div>
+          <div className='plants ml-10 mr-10' style={{textAlign: 'center' }}>
+            <img src={plantimg} className="plants-img" style={{ width: '150px', height: '100%' }} alt="Plants"/>
+            <div className='home-rounded-box mt-5'>
+            <h1> PLANTS</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className='welcome-article px-14 py-14 bg-customTan'>
   <div className="flex items-start justify-start">
     <div className="welcome-img ml-14">
@@ -111,15 +141,15 @@ const Intro = () => {
   <div className="Ayurveda-logo mb-3">
     <img src={AyuLogo} className="Ayulogoimg" style={{ width: '150px', height: '100%' }} />
   </div>
-  <div className="flex justify-center mb-5">
-    <div>
+  <div className="flex mb-5">
+    <div  className='ml-14'>
     <h1 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> CONTACT US </h1>
       <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
         +91 9752356347 <br/>
         +91 7238743826
       </p>
     </div>
-    <div>
+    <div className='ml-14'>
     <h2 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> ADDRESS </h2>
     <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
         Girls' Hostel, IIIT <br/>
@@ -127,13 +157,13 @@ const Intro = () => {
         781015
       </p>
     </div>
-     <div>
-     <h3 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> EMAIL </h3>
-     <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
+     <div className='ml-14'>
+     <h3 className='home-footer-head mr-24 ' style={{ fontSize: '0.7rem' }}> EMAIL </h3>
+     <p className='home-footer-text mt-2 ' style={{ fontSize: '0.6rem' }}>
         navya.dhawde21b@iiitg.ac.in 
       </p>
      </div>
-      <h4 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> CONNECT WITH US </h4>
+      <h4 className='home-footer-head mr-24 ml-14' style={{ fontSize: '0.7rem' }}> CONNECT WITH US </h4>
       
     </div>
   </div>
