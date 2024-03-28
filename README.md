@@ -1,6 +1,6 @@
 How to run this project ?
 ```
-npm start
+npm run start
 ```
 
 How to push on github
