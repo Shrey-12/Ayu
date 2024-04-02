@@ -13,6 +13,7 @@ module.exports = {
           customMint : '#D1E0D6',
           customGreen : '#10302A',
           customSage : '#6B796A',
+          customGrey : '#ECECE8'
   
         },
         gridTemplateRows: {

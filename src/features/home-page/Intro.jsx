@@ -163,7 +163,7 @@ const Intro = () => {
         navya.dhawde21b@iiitg.ac.in 
       </p>
      </div>
-      <h4 className='home-footer-head mr-24 ml-14' style={{ fontSize: '0.7rem' }}> CONNECT WITH US </h4>
+      {/* <h4 className='home-footer-head mr-24 ml-14' style={{ fontSize: '0.7rem' }}> CONNECT WITH US </h4> */}
       
     </div>
   </div>

@@ -1,5 +1,8 @@
 import React, { useState, Fragment, useEffect } from "react";
+import "./ProductList.css"
 import Pagination from "../../common/pagination";
+import AyuLogo from '../../../assets/images/AyuLogo.png'
+import productLogo from '../../../assets/images/productLogo.jpg'
 import { useSelector, useDispatch } from "react-redux";
 import {
   selectAllProducts,
@@ -30,6 +33,8 @@ const sortOptions = [
   { name: "Price: Low to High", sort: "price", order: "asc", current: false },
   { name: "Price: High to Low", sort: "-price", order: "desc", current: false },
 ];
+
+
 
 
 
@@ -102,6 +107,8 @@ export default function ProductList() {
     setPage(page);
   };
 
+  
+
   useEffect(() => {
     // Fetch products whenever filter,sort or  page changes
     const pagination = { _page: page, _per_page: ITEM_PER_PAGE };
@@ -117,9 +124,14 @@ export default function ProductList() {
     dispatch(fetchCategoriesAsync());
   },[dispatch])
 
+  const [fadeIn, setFadeIn] = useState(false);
+  useEffect(() => {
+    setFadeIn(true);
+  }, []);
+
   return (
     <div>
-      <div className="bg-white">
+      <div className="bg-customWhite">
         <div>
           {/* Mobile filter dialog */}
           <MobileFilter
@@ -129,9 +141,42 @@ export default function ProductList() {
             filters ={filters}
           />
 
-          <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-5">
-              <h1 className=" tracking-tight text-gray-900">
+          <main className="mx-auto max-w-7xl">
+          <div className={`product-logo-parent ${fadeIn ? 'fade-in' : ''}`}>
+               <img src={productLogo} className="ayu-logo" style={{ width: '100%', height: '100%' }} />
+               <div className="overlay-text"  style={{ textAlign: 'right'}}>
+                <h1 className="product-image-text" > 
+                Discover<br/>
+                Natural<br/>
+                Excellence
+                </h1>
+                </div>
+            </div>
+            <div className='product-rec-box'>
+      <div className='grid grid-cols-1 md:grid-cols-3'>
+      <div className="flex-grow items-centre bg-customGreen py-4">
+        <h2 className='product-rec-text'
+        style={{ fontSize: '2rem', textAlign:'center' }}>
+        Natural
+        </h2>
+
+        </div>
+        <div className="flex-grow items-centre  bg-customGreen py-4">
+        <h3 className='product-rec-text'
+        style={{ fontSize: '2rem', textAlign:'center' }}>
+        Vegan
+        </h3>
+        </div>
+        <div className="flex-grow items-centre bg-customGreen py-4">
+        <h5 className='product-rec-text'
+        style={{ fontSize: '2rem', textAlign:'center' }}>
+        Ecofriendly     
+        </h5>
+        </div>
+        </div>
+      </div>
+            <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-5 px-10">
+              <h1 className=" product-head-text">
                 New Arrivals
               </h1>
               <div className="flex items-center">
@@ -199,17 +244,17 @@ export default function ProductList() {
               </div>
             </div>
 
-            <section aria-labelledby="products-heading" className="pb-24 pt-6">
+            <section aria-labelledby="products-heading" className="pb-24 pt-6 px-10">
               <h2 id="products-heading" className="sr-only">
                 Products
               </h2>
 
-              <div className="grid grid-cols-1 gap-x-4 gap-y-14 lg:grid-cols-4">
+              <div className="grid grid-cols-1 gap-x-10 gap-y-14 lg:grid-cols-3">
                 <DesktopFilter handleFilter={handleFilter} filters={filters}/>
                 {/*=====================================================================================Web page Filters */}
 
                 {/* Product grid --------------------------------------------------*/}
-                <div className="lg:col-span-3">
+                <div className="lg:col-span-2">
                   {" "}
                   {/* //Product page Mobile */}
                   <ProductGrid data={products} />
@@ -226,6 +271,39 @@ export default function ProductList() {
               setPage={setPage}
               totalItems={totalItems}
             />
+            <div className="product-plant-box bg-customMint">
+              
+            </div>
+            <div className='home-footer bg-customGreen' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+  <div className="Ayurveda-logo mb-3">
+    <img src={AyuLogo} className="Ayulogoimg" style={{ width: '150px', height: '100%' }} />
+  </div>
+  <div className="flex mb-5">
+    <div  className='ml-14'>
+    <h1 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> CONTACT US </h1>
+      <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
+        +91 9752356347 <br/>
+        +91 7238743826
+      </p>
+    </div>
+    <div className='ml-14'>
+    <h2 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> ADDRESS </h2>
+    <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
+        Girls' Hostel, IIIT <br/>
+        Bongora, Guwahati, <br/>
+        781015
+      </p>
+    </div>
+     <div className='ml-14'>
+     <h3 className='home-footer-head mr-24 ' style={{ fontSize: '0.7rem' }}> EMAIL </h3>
+     <p className='home-footer-text mt-2 ' style={{ fontSize: '0.6rem' }}>
+        navya.dhawde21b@iiitg.ac.in 
+      </p>
+     </div>
+      {/* <h4 className='home-footer-head mr-24 ml-14' style={{ fontSize: '0.7rem' }}> CONNECT WITH US </h4> */}
+      
+    </div>
+  </div>
           </main>
         </div>
       </div>
@@ -365,13 +443,13 @@ function DesktopFilter({ handleFilter, filters}) {
           <Disclosure
             as="div"
             key={section.id}
-            className="border-b border-gray-200 py-5"
+            className="border-b border-gray-200 py-5 "
           >
             {({ open }) => (
               <>
                 <h3 className="-my-3 flow-root">
                   <Disclosure.Button className="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500">
-                    <span className="font-medium text-gray-900">
+                    <span className="product-text px-3 text-gray-900">
                       {section.name}
                     </span>
                     <span className="ml-6 flex items-center">
@@ -417,8 +495,8 @@ function DesktopFilter({ handleFilter, filters}) {
 
 function ProductGrid({ data }) {
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
+    <div className="bg-customGrey">
+      <div className="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-2 lg:max-w-7xl lg:px-8">
         <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {data.map((product) => (
             <Link to= {`/productDetailsPage/${product.id}`} key={product.id}>
