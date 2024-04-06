@@ -17,6 +17,7 @@ const user = {
 const navigation = [
   { name: "Home", link: "/", user: true },
   { name: "Shop", link: "/shop", user: true },
+  { name: "Plant Detection", link: "/plant-identification", user: true },
   { name: "Admin", link: "/admin", admin: true },
   { name: "Orders", link: "/admin/orders", admin: true },
 ];
@@ -66,7 +67,7 @@ function Navbar({ children }) {
                     </div>
                   </div>
                   <Link to="/">
-                    <div className="flex-shrink-0 ">
+                    <div className="flex-shrink-0 nav-center-logo">
                       <img
                         src={AyuNavLogo}
                         className="ayu-logo"

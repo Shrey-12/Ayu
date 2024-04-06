@@ -776,7 +776,18 @@
       "email": "pari@gmail.com",
       "password": "pari@123",
       "role": "user",
-      "addresses": []
+      "addresses": [
+        {
+          "name": "pari",
+          "email": "pari@gmail.com",
+          "phone": "7620625748",
+          "country": "India",
+          "street": "IIIT Guwahatu",
+          "city": "guwahati",
+          "state": "Andhra Pradesh",
+          "pinCode": "781015"
+        }
+      ]
     },
     {
       "id": "35c0",
@@ -859,6 +870,32 @@
       "rating": 0,
       "quantity": 1,
       "users": "b501"
+    },
+    {
+      "id": "f2e0",
+      "title": "Basic Tee",
+      "href": "#",
+      "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 900,
+      "discountPrice": 500,
+      "color": "Black",
+      "category": "tShirt",
+      "brand": "puma",
+      "totalCount": 117,
+      "ratingAverage": 4,
+      "shippingCost": 80,
+      "stock": 32,
+      "images": [
+        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+      ],
+      "description": "Basic Tee",
+      "categories": "",
+      "rating": 0,
+      "quantity": 1,
+      "users": "dada"
     }
   ],
   "orders": [
@@ -1014,6 +1051,132 @@
         "pinCode": "223101"
       },
       "status": "dispatched"
+    },
+    {
+      "id": "1d39",
+      "items": [
+        {
+          "id": "39a9",
+          "title": "Basic Tee",
+          "href": "#",
+          "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+          "imageAlt": "Front of men's Basic Tee in black.",
+          "price": 900,
+          "discountPrice": 500,
+          "color": "Black",
+          "category": "tShirt",
+          "brand": "puma",
+          "totalCount": 117,
+          "ratingAverage": 4,
+          "shippingCost": 80,
+          "stock": 32,
+          "images": [
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+          ],
+          "description": "Basic Tee",
+          "categories": "",
+          "rating": 0,
+          "quantity": 1,
+          "users": "dada"
+        }
+      ],
+      "totalAmount": 580,
+      "totalItems": 1,
+      "user": {
+        "id": "dada",
+        "email": "pari@gmail.com",
+        "password": "pari@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "pari",
+            "email": "pari@gmail.com",
+            "phone": "7620625748",
+            "country": "India",
+            "street": "IIIT Guwahatu",
+            "city": "guwahati",
+            "state": "Andhra Pradesh",
+            "pinCode": "781015"
+          }
+        ]
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "pari",
+        "email": "pari@gmail.com",
+        "phone": "7620625748",
+        "country": "India",
+        "street": "IIIT Guwahatu",
+        "city": "guwahati",
+        "state": "Andhra Pradesh",
+        "pinCode": "781015"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "3f9a",
+      "items": [
+        {
+          "id": "3fe1",
+          "title": "Basic Tee",
+          "href": "#",
+          "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+          "imageAlt": "Front of men's Basic Tee in black.",
+          "price": 900,
+          "discountPrice": 500,
+          "color": "Black",
+          "category": "tShirt",
+          "brand": "puma",
+          "totalCount": 117,
+          "ratingAverage": 4,
+          "shippingCost": 80,
+          "stock": 32,
+          "images": [
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+          ],
+          "description": "Basic Tee",
+          "categories": "",
+          "rating": 0,
+          "quantity": 2,
+          "users": "dada"
+        }
+      ],
+      "totalAmount": 1080,
+      "totalItems": 2,
+      "user": {
+        "id": "dada",
+        "email": "pari@gmail.com",
+        "password": "pari@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "pari",
+            "email": "pari@gmail.com",
+            "phone": "7620625748",
+            "country": "India",
+            "street": "IIIT Guwahatu",
+            "city": "guwahati",
+            "state": "Andhra Pradesh",
+            "pinCode": "781015"
+          }
+        ]
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "pari",
+        "email": "pari@gmail.com",
+        "phone": "7620625748",
+        "country": "India",
+        "street": "IIIT Guwahatu",
+        "city": "guwahati",
+        "state": "Andhra Pradesh",
+        "pinCode": "781015"
+      },
+      "status": "pending"
     }
   ]
 }
