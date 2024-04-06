@@ -35,10 +35,11 @@
 .overlay-text {
     position: absolute;
     top: 50%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5vw; /* Adjust font size as needed */
     color: white;
+    white-space: nowrap;
     opacity: 0; /* Initially hidden */
     transition: opacity 3s ease-in-out; /* Transition effect */
   }
@@ -52,7 +53,7 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
   .product-logo-parent {
@@ -60,4 +61,20 @@
     width: 100%; /* Adjust width as needed */
     height: auto; /* Adjust height as needed */
     overflow: hidden; /* Ensure text stays inside the image */
+}
+
+.product-plant-box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.overlay-box {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 30vw; /* Define the height as needed * /* Example background color with opacity */
+    z-index: 1; /* Ensure the overlay is above the image */
 }

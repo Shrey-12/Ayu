@@ -2,7 +2,8 @@ import React, { useState, Fragment, useEffect } from "react";
 import "./ProductList.css"
 import Pagination from "../../common/pagination";
 import AyuLogo from '../../../assets/images/AyuLogo.png'
-import productLogo from '../../../assets/images/productLogo.jpg'
+import productLogo from '../../../assets/images/productLogo.png'
+import productplant1 from '../../../assets/images/productplant1.png'
 import { useSelector, useDispatch } from "react-redux";
 import {
   selectAllProducts,
@@ -144,10 +145,10 @@ export default function ProductList() {
           <main className="mx-auto max-w-7xl">
           <div className={`product-logo-parent ${fadeIn ? 'fade-in' : ''}`}>
                <img src={productLogo} className="ayu-logo" style={{ width: '100%', height: '100%' }} />
-               <div className="overlay-text"  style={{ textAlign: 'right'}}>
+               <div className="overlay-text" >
                 <h1 className="product-image-text" > 
-                Discover<br/>
-                Natural<br/>
+                Discover
+                Natural
                 Excellence
                 </h1>
                 </div>
@@ -271,8 +272,8 @@ export default function ProductList() {
               setPage={setPage}
               totalItems={totalItems}
             />
-            <div className="product-plant-box bg-customMint">
-              
+            <div className="product-plant-box">
+               <img src={productplant1} className="plant-img" style={{ width: '100%', height: '100%' }} />
             </div>
             <div className='home-footer bg-customGreen' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
   <div className="Ayurveda-logo mb-3">
