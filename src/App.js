@@ -32,6 +32,7 @@ import AdminProductDetailPage from "./pages/AdminProductDetailPage";
 import AdminProductFormPage from "./pages/AdminProductFormPage";
 import AdminOrdersPage from "./pages/AdminOrdersPage";
 import IntroPage from "./pages/IntroPage";
+import PlantIdentification from "./pages/PlantIdentification";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
         <Home />
       </Protected>
     ),
+  },
+  {
+    path: "/plant-identification",
+    element: <PlantIdentification/>,
   },
   {
     path: "/admin",
