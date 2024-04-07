@@ -274,6 +274,18 @@ export default function ProductList() {
             />
             <div className="product-plant-box">
                <img src={productplant1} className="plant-img" style={{ width: '100%', height: '100%' }} />
+               <div className="product-plant-text" style={{justifyItems:'center' , alignItems: 'center', display: 'flex', flexDirection: 'column', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+                <h1 className="pro-plant-head text-customGreen" style={{ fontSize:  '4vw' , textAlign: 'center' }}>
+                  Explore our range of plants</h1>
+                  <h2 className="product-text">
+                  Take a tour through our wide-ranging plant collection.
+                  </h2>
+                  <Link to = "/plant-identification">
+                  <div className="explore-button mt-5 mb-5">
+                  <span>EXPLORE</span>
+                  </div>
+                  </Link>
+                </div>
             </div>
             <div className='home-footer bg-customGreen' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
   <div className="Ayurveda-logo mb-3">

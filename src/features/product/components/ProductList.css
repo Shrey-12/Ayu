@@ -64,17 +64,43 @@
 }
 
 .product-plant-box {
-    position: relative;
     height: 100%;
     width: 100%;
-    display: inline-block;
+    position: relative;
+}
+.plant-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.pro-plant-head {
+  font-family:  "Cormorant", serif;
+  font-weight: 600;
 }
 
-.overlay-box {
-    position: absolute;
-    top: 0%;
-    left: 0;
-    width: 100%;
-    height: 30vw; /* Define the height as needed * /* Example background color with opacity */
-    z-index: 1; /* Ensure the overlay is above the image */
+.explore-button {
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+  padding: 8px 15px;
+  font-weight: 200;
+  background-color: #10302A; /* Default button color */
+  color: #ECECE8;
+  cursor: pointer;
+  font-size: 1.7vw;
+  transition: background-color 0.4s ease;
+}
+
+.explore-button:hover {
+  background-color: #49615c; /* Button color on hover */
+}
+.product-text{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.7vw;
 }
