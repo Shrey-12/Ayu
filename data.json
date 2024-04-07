@@ -644,84 +644,72 @@
   ],
   "brands": [
     {
-      "value": "Apple",
-      "label": "Apple",
+      "value": "Kama Ayurveda",
+      "label": "Kama Ayurveda",
       "checked": false,
       "id": "6c49"
     },
     {
-      "value": "Samsung",
-      "label": "Samsung",
+      "value": "Just Herbs",
+      "label": "Just Herbs",
       "checked": false,
       "id": "e059"
     },
     {
-      "value": "blueberry",
-      "label": "BlueBerry",
+      "value": "Bloom",
+      "label": "Bloom",
       "checked": false,
       "id": "3601"
     },
     {
-      "value": "addidas",
-      "label": "Addidas",
+      "value": "Khadi Naturals",
+      "label": "Khadi Naturals",
       "checked": false,
       "id": "d994"
     },
     {
-      "value": "reebok",
-      "label": "Reebok",
+      "value": "Soul Tree",
+      "label": "Soul Tree",
       "checked": false,
       "id": "bf1d"
     },
     {
-      "value": "puma",
-      "label": "Puma",
+      "value": "Jiva Ayurveda",
+      "label": "Jiva Ayurveda",
       "checked": false,
       "id": "466a"
     }
   ],
   "categories": [
     {
-      "value": "bag",
-      "label": "Bag",
+      "value": "Skincare",
+      "label": "Skincare",
       "checked": false,
       "id": "bf2a"
     },
     {
-      "value": "tShirt",
-      "label": "T-Shirt",
+      "value": "Medicines",
+      "label": "Medicines",
       "checked": false,
       "id": "45ea"
     },
     {
-      "value": "clutch",
-      "label": "Clutch",
+      "value": "Plants",
+      "label": "Plants",
       "checked": false,
       "id": "1af7"
     },
     {
-      "value": "blackCrockery",
-      "label": "Black Crockery",
+      "value": "Bodycare",
+      "label": "Bodycare",
       "checked": false,
       "id": "213d"
     },
     {
-      "value": "accessories",
-      "label": "Accessories",
+      "value": "Haircare",
+      "label": "Haircare",
       "checked": false,
       "id": "ec78"
-    },
-    {
-      "value": "smartphones",
-      "label": "SmartPhone",
-      "checked": false,
-      "id": "8573"
-    },
-    {
-      "value": "laptops",
-      "label": "Laptop",
-      "checked": false,
-      "id": "1529"
     }
   ],
   "users": [
