@@ -4,6 +4,7 @@ import Pagination from "../../common/pagination";
 import AyuLogo from '../../../assets/images/AyuLogo.png'
 import productLogo from '../../../assets/images/productLogo.png'
 import productplant1 from '../../../assets/images/productplant1.png'
+import media from '../../../assets/images/media.png'
 import { useSelector, useDispatch } from "react-redux";
 import {
   selectAllProducts,
@@ -275,7 +276,7 @@ export default function ProductList() {
             <div className="product-plant-box">
                <img src={productplant1} className="plant-img" style={{ width: '100%', height: '100%' }} />
                <div className="product-plant-text" style={{justifyItems:'center' , alignItems: 'center', display: 'flex', flexDirection: 'column', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                <h1 className="pro-plant-head text-customGreen" style={{ fontSize:  '4vw' , textAlign: 'center' }}>
+                <h1 className="pro-plant-head " style={{ fontSize:  '4vw' , textAlign: 'center' }}>
                   Explore our range of plants</h1>
                   <h2 className="product-text">
                   Take a tour through our wide-ranging plant collection.
@@ -287,36 +288,40 @@ export default function ProductList() {
                   </Link>
                 </div>
             </div>
-            <div className='home-footer bg-customGreen' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+            <div className='home-footer bg-customGreen py-4' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
   <div className="Ayurveda-logo mb-3">
     <img src={AyuLogo} className="Ayulogoimg" style={{ width: '150px', height: '100%' }} />
   </div>
-  <div className="flex mb-5">
-    <div  className='ml-14'>
-    <h1 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> CONTACT US </h1>
+  <div className="flex mb-5 px-10" style={{ width: '100%' }}>
+    <div className='ml-14' style={{ width: '33.33%' }}>
+      <h1 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> CONTACT US </h1>
       <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
         +91 9752356347 <br/>
         +91 7238743826
       </p>
     </div>
-    <div className='ml-14'>
-    <h2 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> ADDRESS </h2>
-    <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
+    <div className='ml-14' style={{ width: '33.33%' }}>
+      <h2 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> ADDRESS </h2>
+      <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
         Girls' Hostel, IIIT <br/>
         Bongora, Guwahati, <br/>
         781015
       </p>
     </div>
-     <div className='ml-14'>
-     <h3 className='home-footer-head mr-24 ' style={{ fontSize: '0.7rem' }}> EMAIL </h3>
-     <p className='home-footer-text mt-2 ' style={{ fontSize: '0.6rem' }}>
+    <div className='ml-14' style={{ width: '33.33%' }}>
+      <h3 className='home-footer-head mr-24 ' style={{ fontSize: '0.7rem' }}> EMAIL </h3>
+      <p className='home-footer-text mt-2 ' style={{ fontSize: '0.6rem' }}>
         navya.dhawde21b@iiitg.ac.in 
       </p>
-     </div>
-      {/* <h4 className='home-footer-head mr-24 ml-14' style={{ fontSize: '0.7rem' }}> CONNECT WITH US </h4> */}
-      
     </div>
   </div>
+  <div style={{ width: '100%' }}>
+    <h4 className='home-footer-head py-2 mt-1' style={{ fontSize: '0.7rem', textAlign: 'center' }}>CONNECT WITH US</h4>
+  </div>
+  <div className='social-media-img py-2' style={{ width: '100%',display: 'flex', justifyContent: 'center'  }}>
+    <img src={media} className="socialimg" style={{ width: '100px', height: '100%' }} />
+  </div>
+</div>
           </main>
         </div>
       </div>
