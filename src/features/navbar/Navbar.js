@@ -17,7 +17,7 @@ const user = {
 const navigation = [
   { name: "Home", link: "/", user: true },
   { name: "Shop", link: "/shop", user: true },
-  { name: "Plant Detection", link: "/plant-identification", user: true },
+  { name: "Plant ", link: "/plant-identification", user: true },
   { name: "Admin", link: "/admin", admin: true },
   { name: "Orders", link: "/admin/orders", admin: true },
 ];

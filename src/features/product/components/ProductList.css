@@ -35,10 +35,11 @@
 .overlay-text {
     position: absolute;
     top: 50%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5vw; /* Adjust font size as needed */
     color: white;
+    white-space: nowrap;
     opacity: 0; /* Initially hidden */
     transition: opacity 3s ease-in-out; /* Transition effect */
   }
@@ -52,7 +53,7 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
   .product-logo-parent {
@@ -60,4 +61,46 @@
     width: 100%; /* Adjust width as needed */
     height: auto; /* Adjust height as needed */
     overflow: hidden; /* Ensure text stays inside the image */
+}
+
+.product-plant-box {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.plant-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.pro-plant-head {
+  font-family:  "Cormorant", serif;
+  font-weight: 600;
+}
+
+.explore-button {
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+  padding: 8px 15px;
+  font-weight: 200;
+  background-color: #10302A; /* Default button color */
+  color: #ECECE8;
+  cursor: pointer;
+  font-size: 1.7vw;
+  transition: background-color 0.4s ease;
+}
+
+.explore-button:hover {
+  background-color: #49615c; /* Button color on hover */
+}
+.product-text{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.7vw;
 }
