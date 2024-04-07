@@ -908,7 +908,7 @@
       "users": "3263"
     },
     {
-      "id": "4db6",
+      "id": "a2a3",
       "title": "Medium Stuff Satchel",
       "href": "#",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_pack.jpg?updatedAt=1712418088954",
@@ -3966,6 +3966,168 @@
         "city": "Shahganj",
         "state": "uttar pradesh",
         "pinCode": "223101"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "3370",
+      "items": [
+        {
+          "id": "bdb0",
+          "title": "Basic Tee",
+          "href": "#",
+          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
+          "imageAlt": "Front of men's Basic Tee in black.",
+          "price": 900,
+          "discountPrice": 500,
+          "color": "Black",
+          "category": "tShirt",
+          "brand": "puma",
+          "totalCount": 117,
+          "ratingAverage": 4,
+          "shippingCost": 80,
+          "stock": 32,
+          "images": [
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+          ],
+          "description": "Basic Tee",
+          "categories": "",
+          "rating": 0,
+          "quantity": 1,
+          "users": "3263"
+        },
+        {
+          "id": "4db6",
+          "title": "Medium Stuff Satchel",
+          "href": "#",
+          "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_pack.jpg?updatedAt=1712418088954",
+          "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
+          "price": 12000,
+          "discountPrice": 10000,
+          "color": "Black",
+          "totalCount": 17,
+          "category": "tShirt",
+          "brand": "addidas",
+          "ratingAverage": 3.7,
+          "shippingCost": 80,
+          "stock": 2,
+          "images": [
+            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
+            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
+            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
+          ],
+          "description": "Medium Stuff Satchel",
+          "categories": "",
+          "rating": 0,
+          "quantity": 1,
+          "users": "3263"
+        }
+      ],
+      "totalAmount": 10660,
+      "totalItems": 2,
+      "user": {
+        "id": "3263",
+        "email": "shreya@gmail.com",
+        "password": "shreya@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Arti chaurasiya",
+            "email": "arti@gmail.com",
+            "phone": "9044207635",
+            "street": "bhedaura maharajganj near bank of baroda ",
+            "city": "Azamgarh",
+            "state": "uttar pradesh",
+            "pinCode": "2231703",
+            "country": "India"
+          },
+          {
+            "name": "Shivam chaurasiya",
+            "email": "shivamshg1999@gmail.com",
+            "phone": "8957413082",
+            "country": "India",
+            "street": "dihwa bhadi,shahganj",
+            "city": "Shahganj",
+            "state": "uttar pradesh",
+            "pinCode": "223101"
+          }
+        ]
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Arti chaurasiya",
+        "email": "arti@gmail.com",
+        "phone": "9044207635",
+        "street": "bhedaura maharajganj near bank of baroda ",
+        "city": "Azamgarh",
+        "state": "uttar pradesh",
+        "pinCode": "2231703",
+        "country": "India"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "e2ad",
+      "items": [
+        {
+          "id": "fe5d",
+          "title": "Basic Tee",
+          "href": "#",
+          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
+          "imageAlt": "Front of men's Basic Tee in black.",
+          "price": 900,
+          "discountPrice": 500,
+          "color": "Black",
+          "category": "tShirt",
+          "brand": "puma",
+          "totalCount": 117,
+          "ratingAverage": 4,
+          "shippingCost": 80,
+          "stock": 32,
+          "images": [
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+          ],
+          "description": "Basic Tee",
+          "categories": "",
+          "rating": 0,
+          "quantity": 1,
+          "users": "dada"
+        }
+      ],
+      "totalAmount": 580,
+      "totalItems": 1,
+      "user": {
+        "id": "dada",
+        "email": "pari@gmail.com",
+        "password": "pari@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "pari",
+            "email": "pari@gmail.com",
+            "phone": "7620625748",
+            "country": "India",
+            "street": "IIIT Guwahatu",
+            "city": "guwahati",
+            "state": "Andhra Pradesh",
+            "pinCode": "781015"
+          }
+        ]
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "pari",
+        "email": "pari@gmail.com",
+        "phone": "7620625748",
+        "country": "India",
+        "street": "IIIT Guwahatu",
+        "city": "guwahati",
+        "state": "Andhra Pradesh",
+        "pinCode": "781015"
       },
       "status": "pending"
     }

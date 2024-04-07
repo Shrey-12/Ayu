@@ -250,12 +250,12 @@ export default function ProductList() {
                 Products
               </h2>
 
-              <div className="grid grid-cols-1 gap-x-10 gap-y-14 lg:grid-cols-3">
+              <div className="grid grid-cols-1 gap-x-10 gap-y-14 lg:grid-cols-4">
                 <DesktopFilter handleFilter={handleFilter} filters={filters}/>
                 {/*=====================================================================================Web page Filters */}
 
                 {/* Product grid --------------------------------------------------*/}
-                <div className="lg:col-span-2">
+                <div className="lg:col-span-3">
                   {" "}
                   {/* //Product page Mobile */}
                   <ProductGrid data={products} />
@@ -513,7 +513,7 @@ function ProductGrid({ data }) {
   return (
     <div className="bg-customGrey">
       <div className="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-2 lg:max-w-7xl lg:px-8">
-        <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+        <div className="mt-6 grid grid-cols-2 gap-x-6 lg:gap-y-20 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 ">
           {data.map((product) => (
             <Link to= {`/productDetailsPage/${product.id}`} key={product.id}>
               <div className="group relative">
@@ -524,16 +524,16 @@ function ProductGrid({ data }) {
                       )}%`
                     : "Fresh Arrival"}
                 </span>
-                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-700 lg:aspect-none group-hover:opacity-75 lg:h-60">
+                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-700 lg:aspect-none group-hover:opacity-75 lg:h-80">
                   <img
                     src={product.thumbnail}
                     alt={product.title}
                     className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                   />
                 </div>
-                <div className="mt-4 flex justify-between">
+                <div className="mt-6 flex justify-between px-3">
                   <div>
-                    <h2 className="text-sm text-gray-700">
+                    <h2 className="text-sm text-gray-700" style={{ fontSize: '0.85rem' }}>
                       <div href={product.thumbnail}>
                         <span aria-hidden="true" className="absolute inset-0" />
                         {product.title}
@@ -566,7 +566,7 @@ function ProductGrid({ data }) {
                     </div>
                   </div>
                   <div className="text-base">
-                    <p className="text-sm font-medium text-gray-900">
+                    <p className="text-sm font-medium text-gray-900" style={{ fontSize: '0.85rem' }}>
                       {product.discountPrice
                         ? `Rs. ${product.discountPrice}`
                         : ""}
@@ -576,7 +576,7 @@ function ProductGrid({ data }) {
                         product.discountPrice
                           ? "text-sm font-medium text-gray-400 line-through"
                           : "text-sm font-medium text-gray-900"
-                      }
+                      } style={{ fontSize: '0.85rem' }}
                     >
                       Rs. {product.price}
                     </p>
