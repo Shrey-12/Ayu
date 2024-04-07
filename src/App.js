@@ -33,6 +33,7 @@ import AdminProductFormPage from "./pages/AdminProductFormPage";
 import AdminOrdersPage from "./pages/AdminOrdersPage";
 import IntroPage from "./pages/IntroPage";
 import PlantIdentification from "./pages/PlantIdentification";
+import StripeCheckout from './pages/StripeCheckout';
 
 const router = createBrowserRouter([
   {
@@ -139,6 +140,14 @@ const router = createBrowserRouter([
   {
     path: "/forgotPassword",
     element: <ForgotPasswordPage />,
+  },
+  {
+    path: "/stripe-checkout/",
+    element: (
+      <Protected>
+        <StripeCheckout></StripeCheckout>
+      </Protected>
+    ),
   },
   {
     path: "*",

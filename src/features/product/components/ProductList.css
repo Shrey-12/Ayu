@@ -18,9 +18,10 @@
 
 .product-text {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
     font-weight: 300;
     font-style: normal;
+    font-size: 1vw;
   }
 
 .product-rec-text{
@@ -101,7 +102,4 @@
 .explore-button:hover {
   background-color: #49615c; /* Button color on hover */
 }
-.product-text{
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.7vw;
-}
+
