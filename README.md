@@ -27,3 +27,10 @@ make sure you are running json server in backend for dummy data
 ```
 json-server --watch data.json --port 8080
 ```
+
+run stripe payment server
+```
+node .\stripe_pay.js
+```
+incase of errors change files `CheckoutForm.js` => `return_url: `http://localhost:3000/orderSuccess/${currentOrder.id}`,`
+
