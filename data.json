@@ -4,7 +4,7 @@
       "id": "199",
       "title": "Basic Tee",
       "href": "#",
-      "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+      "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
       "imageAlt": "Front of men's Basic Tee in black.",
       "price": 900,
       "discountPrice": 500,
@@ -28,7 +28,7 @@
       "id": "111",
       "title": "Medium Stuff Satchel",
       "href": "#",
-      "thumbnail": "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
+      "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_pack.jpg?updatedAt=1712418088954",
       "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
       "price": 12000,
       "discountPrice": 10000,
@@ -60,7 +60,7 @@
       "shippingCost": 80,
       "brand": "Apple",
       "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+      "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_scrub.jpg?updatedAt=1712418088880",
       "images": [
         "https://cdn.dummyjson.com/product-images/1/1.jpg",
         "https://cdn.dummyjson.com/product-images/1/2.jpg",
@@ -80,7 +80,7 @@
       "brand": "Apple",
       "shippingCost": 80,
       "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+      "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_serum.jpg?updatedAt=1712418088785",
       "images": [
         "https://cdn.dummyjson.com/product-images/2/1.jpg",
         "https://cdn.dummyjson.com/product-images/2/2.jpg",
@@ -98,7 +98,7 @@
       "stock": 36,
       "brand": "Samsung",
       "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
+      "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_lotion.png?updatedAt=1712418088731",
       "images": [
         "https://cdn.dummyjson.com/product-images/3/1.jpg"
       ]
@@ -114,7 +114,7 @@
       "shippingCost": 80,
       "brand": "OPPO",
       "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
+      "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_Serum.png?updatedAt=1712418088575",
       "images": [
         "https://cdn.dummyjson.com/product-images/4/1.jpg",
         "https://cdn.dummyjson.com/product-images/4/2.jpg",
@@ -846,32 +846,6 @@
       "users": "3263"
     },
     {
-      "id": "73bc",
-      "title": "Medium Stuff Satchel",
-      "href": "#",
-      "thumbnail": "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-      "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-      "price": 12000,
-      "discountPrice": 10000,
-      "color": "Black",
-      "totalCount": 17,
-      "category": "tShirt",
-      "brand": "addidas",
-      "ratingAverage": 3.7,
-      "shippingCost": 80,
-      "stock": 2,
-      "images": [
-        " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-        " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-        " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
-      ],
-      "description": "Medium Stuff Satchel",
-      "categories": "",
-      "rating": 0,
-      "quantity": 1,
-      "users": "b501"
-    },
-    {
       "id": "f2e0",
       "title": "Basic Tee",
       "href": "#",
@@ -898,25 +872,49 @@
       "users": "dada"
     },
     {
-      "id": "4b75",
-      "title": "iPhone X",
-      "description": "iPhone X",
-      "price": 15000,
-      "discountPrice": 12000,
-      "rating": 0,
-      "stock": 34,
-      "brand": "Apple",
+
+      "id": "72d8",
+      "title": "Basic Tee",
+      "href": "#",
+      "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 900,
+      "discountPrice": 500,
+      "color": "Black",
+      "category": "tShirt",
+      "brand": "puma",
+      "totalCount": 117,
+      "ratingAverage": 4,
       "shippingCost": 80,
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+      "stock": 32,
       "images": [
-        "https://cdn.dummyjson.com/product-images/2/1.jpg",
-        "https://cdn.dummyjson.com/product-images/2/2.jpg",
-        "https://cdn.dummyjson.com/product-images/2/3.jpg"
+        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
       ],
+      "description": "Basic Tee",
       "categories": "",
+      "rating": 0,
+      "quantity": 3,
+      "users": "b501"
+    },
+    {
+      "id": "315f",
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_lotion.png?updatedAt=1712418088731",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/3/1.jpg"
+      ],
       "quantity": 1,
-      "users": "3263"
+      "users": "b501"
+>>>>>>> e144c93e871335c8fe6a362399f8b79cd152beb5
     }
   ],
   "orders": [

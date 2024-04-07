@@ -20,6 +20,7 @@
   ```
 */
 import { useState, useEffect } from 'react'
+import "./ProductDetails.css"
 import { StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
 import { useDispatch, useSelector } from 'react-redux'
@@ -29,8 +30,8 @@ import { useParams } from 'react-router-dom'
 import { addToCartAsync } from '../../cart/cartSlice'
 
 const colors = [
-  { name: 'White', class: 'bg-white', selectedClass: 'ring-gray-400' },
-  { name: 'Gray', class: 'bg-gray-200', selectedClass: 'ring-gray-400' },
+  { name: 'White', class: 'bg-customMint', selectedClass: 'ring-gray-400' },
+  { name: 'Gray', class: 'bg-customBrown', selectedClass: 'ring-gray-400' },
   { name: 'Black', class: 'bg-gray-900', selectedClass: 'ring-gray-900' },
 ]
 const sizes = [
@@ -78,7 +79,7 @@ export default function ProductDetails() {
   },[dispatch, params.id])
 
   return (
-    <div className="bg-white">
+    <div className="bg-customGrey">
       {product && <div className="pt-6">
         <nav aria-label="Breadcrumb">
           <ol role="list" className="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -146,11 +147,11 @@ export default function ProductDetails() {
         {/* Product info */}
         <div className="mx-auto max-w-2xl px-4 pb-16 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pb-24 lg:pt-16">
           <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-            <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{product.title}</h1>
+            <h1 className="details-title text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl">{product.title}</h1>
           </div>
 
           {/* Options */}
-          <div className="mt-4 lg:row-span-3 lg:mt-0">
+          <div className="details-desc mt-4 lg:row-span-3 lg:mt-0">
             <h2 className="sr-only">Product information</h2>
             <span className="text-1xl tracking-tight text-gray-500 mr-2 line-through">Rs. {product.price}</span><span className="inline-flex z-40 items-center rounded-md bg-customMint  px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-gray-500/10">
                   {product.discountPrice
@@ -188,7 +189,7 @@ export default function ProductDetails() {
             <form className="mt-10">
               {/* Colors */}
               <div>
-                <h3 className="text-sm font-medium text-gray-900">Color</h3>
+                <h3 className="details-font text-sm font-medium text-gray-900">Color</h3>
 
                 <RadioGroup value={selectedColor} onChange={setSelectedColor} className="mt-4">
                   <RadioGroup.Label className="sr-only">Choose a color</RadioGroup.Label>
@@ -225,15 +226,15 @@ export default function ProductDetails() {
               {/* Sizes */}
               <div className="mt-10">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-sm font-medium text-gray-900">Size</h3>
-                  <a href="#" className="text-sm font-medium text-customGreen hover:text-customSage">
+                  <h3 className="details-font text-sm font-medium text-gray-900">Size</h3>
+                  <a href="#" className="details-font text-sm font-medium text-customGreen hover:text-customSage">
                     Size guide
                   </a>
                 </div>
 
                 <RadioGroup value={selectedSize} onChange={setSelectedSize} className="mt-4">
                   <RadioGroup.Label className="sr-only">Choose a size</RadioGroup.Label>
-                  <div className="grid grid-cols-4 gap-4 sm:grid-cols-8 lg:grid-cols-4">
+                  <div className="details-font grid grid-cols-4 gap-3 sm:grid-cols-8 lg:grid-cols-4">
                     {sizes.map((size) => (
                       <RadioGroup.Option
                         key={size.name}
@@ -242,10 +243,10 @@ export default function ProductDetails() {
                         className={({ active }) =>
                           classNames(
                             size.inStock
-                              ? 'cursor-pointer bg-white text-gray-900 shadow-sm'
-                              : 'cursor-not-allowed bg-gray-50 text-gray-200',
+                              ? 'cursor-pointer bg-customBeige text-gray-900 shadow-sm border-gray-300'
+                              : 'cursor-not-allowed bg-customTan text-gray-400',
                             active ? 'ring-2 ring-customSage' : '',
-                            'group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6'
+                            'group relative flex items-center justify-center rounded-md border py-2 px-2 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6'
                           )
                         }
                       >
@@ -287,7 +288,7 @@ export default function ProductDetails() {
               <button
                 type="submit"
                 onClick={handleCart}
-                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-customGreen px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-customSage focus:ring-offset-2"
+                className="details-head mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-customGreen px-8 py-3 text-base font-medium text-customGrey hover:bg-customSage focus:outline-none focus:ring-2 focus:ring-customSage focus:ring-offset-2"
               >
                 Add to Cart
               </button>
@@ -305,9 +306,9 @@ export default function ProductDetails() {
             </div>
 
             <div className="mt-10">
-              <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
+              <h3 className="details-head text-l  text-gray-900">Highlights</h3>
 
-              <div className="mt-4">
+              <div className="details-desc mt-4">
                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
                   {highlights.map((highlight) => (
                     <li key={highlight} className="text-gray-400">
@@ -319,10 +320,10 @@ export default function ProductDetails() {
             </div>
 
             <div className="mt-10">
-              <h2 className="text-sm font-medium text-gray-900">Details</h2>
+              <h2 className="details-head text-l text-gray-900">Details</h2>
 
               <div className="mt-4 space-y-6">
-                <p className="text-sm text-gray-600">{product.description}</p>
+                <p className="details-desc text-sm text-gray-600">{product.description}</p>
               </div>
             </div>
           </div>

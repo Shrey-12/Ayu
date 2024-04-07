@@ -1,4 +1,5 @@
 import React, { Fragment, useState, useEffect } from "react";
+import "./Cart.css"
 import { useSelector, useDispatch } from "react-redux";
 import { deleteItemFromCartAsync, selectItems, updateCartAsync } from "./cartSlice";
 import { Dialog, Transition } from "@headlessui/react";
@@ -33,8 +34,8 @@ export default function Cart() {
   return (
     <>
     {!items.length && <Navigate to="/" replace={true}></Navigate>}
-      <div className="mx-auto mt-24 bg-white max-w-7xl px-4 sm:px-6 lg-px-8">
-      <h1 className="text-3xl font-bold tracking-tight text-gray-900"> Shopping Cart</h1>
+      <div className="mx-auto py-5 pb-16 bg-customGrey max-w-7xl px-4 sm:px-6 lg-px-8">
+      <h1 className="cart-title text-4xl font-bold tracking-tight text-gray-900"> Shopping Cart</h1>
         <div className="mt-8 border-t border-gray-200 px-4 py-6 sm:px-6">
         
           <div className="flow-root">
@@ -51,9 +52,11 @@ export default function Cart() {
 
                   <div className="ml-4 flex flex-1 flex-col">
                     <div>
-                      <div className="flex justify-between text-base font-medium text-gray-900">
+                      <div className="cart-desc flex justify-between text-base font-medium text-gray-900">
                         <h3>
+                          <div className="font-semibold">
                           <a href={item.href}>{item.title}</a>
+                          </div>
                         </h3>
                         {item.discountPrice && <p className="line-through text-gray-700" >Rs.{item.price}</p>}
                         {item.discountPrice ? <p className="ml-2">Rs. {item.discountPrice}</p> : <p className="ml-2 strike-through">Rs.{item.price}</p>}
@@ -63,12 +66,14 @@ export default function Cart() {
                         {item.brand}
                       </p>
                     </div>
-                    <div className="flex flex-1 items-end justify-between text-sm">
+                    <div className="cart-head flex flex-1 items-end justify-between text-sm">
                       <div className="text-gray-500 mx-50" >
-                      <label htmlFor="password" className="inline mr-5 text-sm font-medium leading-6 text-gray-900">
+                      <label htmlFor="password" className="inline mr-5 text-sm leading-6 text-gray-900">
                  Quantity
                 </label>
-                      <select onChange={(e) =>handleQuantity(e,item)} value={item.quantity}>
+                      <select onChange={(e) =>handleQuantity(e,item)} value={item.quantity}
+                      className="appearance-none border border-gray-300 rounded-md text-gray-700 leading-tight focus:outline-none focus:border-customBrown focus:ring focus:ring-customBrown focus:ring-opacity-50"
+                      >
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -92,21 +97,21 @@ export default function Cart() {
         </div>
 
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
-          <div className="flex justify-between text-base font-medium text-gray-900">
+          <div className="cart-head flex justify-between mb-2 text-base font-medium text-gray-900">
             <p>Subtotal</p>
             <p>Rs. {totalAmount}</p>
           </div>
-          <div className="flex justify-between text-base font-medium text-gray-900">
+          <div className="cart-head flex justify-between text-base font-medium text-gray-900">
             <p>Total Items in Cart</p>
             <p>{totalItems} items</p>
           </div>
-          <p className="mt-0.5 text-sm text-gray-500">
+          <p className="cart-desc mt-0.5 text-sm text-gray-500">
             Shipping and taxes calculated at checkout.
           </p>
           <div className="mt-6">
             <Link
               to="/checkOutPage"
-              className="flex items-center justify-center rounded-md border border-transparent bg-customGreen px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-customSage"
+              className="cart-head flex items-center justify-center rounded-md border border-transparent bg-customBrown px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-customTan"
             >
               Checkout
             </Link>
@@ -117,7 +122,7 @@ export default function Cart() {
               <Link to="/">
               <button
                 type="button"
-                className="font-medium text-customGreen hover:text-customSage"
+                className="cart-head font-medium text-customGreen hover:text-customSage"
                 onClick={() => setOpen(false)}
               >
                 Continue Shopping
