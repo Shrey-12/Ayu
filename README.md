@@ -23,6 +23,12 @@ pari@gmail.com
 pari@123
 ```
 
+login into the admin panel
+```
+Admin@gmail.com
+admin@123
+```
+
 make sure you are running json server in backend for dummy data 
 ```
 json-server --watch data.json --port 8080
