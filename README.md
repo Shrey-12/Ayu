@@ -1,3 +1,8 @@
+
+
+https://github.com/Shrey-12/Ayu/assets/98189346/3f05c68d-a829-4e6d-8a39-d8a2ce80ae29
+
+
 How to run this project ?
 ```
 npm run start
