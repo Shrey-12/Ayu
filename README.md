@@ -1,3 +1,8 @@
+
+
+https://github.com/Shrey-12/Ayu/assets/98189346/3f05c68d-a829-4e6d-8a39-d8a2ce80ae29
+
+
 How to run this project ?
 ```
 npm run start
@@ -23,7 +28,23 @@ pari@gmail.com
 pari@123
 ```
 
+login into the admin panel
+```
+Admin@gmail.com
+admin@123
+```
+
 make sure you are running json server in backend for dummy data 
 ```
 json-server --watch data.json --port 8080
 ```
+
+run stripe payment server
+```
+node .\stripe_pay.js
+```
+incase of errors change files CheckoutForm.js =>
+ ```
+return_url: `http://localhost:3000/orderSuccess/${currentOrder.id}`,
+```
+
