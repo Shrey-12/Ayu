@@ -54,7 +54,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/plant-identification",
-    element: <PlantIdentification/>,
+    element: (
+      <Protected>
+        <PlantIdentification />
+      </Protected>
+    ),
   },
   {
     path: "/admin",
