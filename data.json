@@ -388,7 +388,7 @@
       ]
     },
     {
-      "id": "18",
+      "id": "22",
       "title": "Microsoft Surface Laptop 4",
       "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
       "price": 1499,
@@ -407,7 +407,7 @@
       ]
     },
     {
-      "id": "19",
+      "id": "23",
       "title": "Infinix INBOOK",
       "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
       "price": 1099,
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": "20",
+      "id": "24",
       "title": "HP Pavilion 15-DK1056WM",
       "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
       "price": 1099,
@@ -444,7 +444,7 @@
       ]
     },
     {
-      "id": "31",
+      "id": "25",
       "title": "iPhone 9",
       "description": "An apple mobile which is nothing like apple",
       "price": 549,
@@ -463,7 +463,7 @@
       ]
     },
     {
-      "id": "32",
+      "id": "26",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": "33",
+      "id": "27",
       "title": "Samsung Universe 9",
       "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
       "price": 1249,
@@ -494,152 +494,6 @@
       "images": [
         "https://cdn.dummyjson.com/product-images/3/1.jpg"
       ]
-    },
-    {
-      "id": "34",
-      "title": "OPPOF19",
-      "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
-      "discountPercentage": 17.91,
-      "rating": 4.3,
-      "stock": 123,
-      "brand": "OPPO",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/4/1.jpg",
-        "https://cdn.dummyjson.com/product-images/4/2.jpg",
-        "https://cdn.dummyjson.com/product-images/4/3.jpg",
-        "https://cdn.dummyjson.com/product-images/4/4.jpg",
-        "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": "35",
-      "title": "Huawei P30",
-      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-      "price": 499,
-      "discountPercentage": 10.58,
-      "rating": 4.09,
-      "stock": 32,
-      "brand": "Huawei",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/5/1.jpg",
-        "https://cdn.dummyjson.com/product-images/5/2.jpg",
-        "https://cdn.dummyjson.com/product-images/5/3.jpg"
-      ]
-    },
-    {
-      "id": "36",
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
-      "discountPercentage": 11.02,
-      "rating": 4.57,
-      "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/6/1.png",
-        "https://cdn.dummyjson.com/product-images/6/2.jpg",
-        "https://cdn.dummyjson.com/product-images/6/3.png",
-        "https://cdn.dummyjson.com/product-images/6/4.jpg"
-      ]
-    },
-    {
-      "id": "37",
-      "title": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-      "price": 1499,
-      "discountPercentage": 4.15,
-      "rating": 4.25,
-      "stock": 50,
-      "brand": "Samsung",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/7/1.jpg",
-        "https://cdn.dummyjson.com/product-images/7/2.jpg",
-        "https://cdn.dummyjson.com/product-images/7/3.jpg",
-        "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": "38",
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
-      "rating": 4.43,
-      "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/8/1.jpg",
-        "https://cdn.dummyjson.com/product-images/8/2.jpg",
-        "https://cdn.dummyjson.com/product-images/8/3.jpg",
-        "https://cdn.dummyjson.com/product-images/8/4.jpg",
-        "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": "39",
-      "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-      "price": 1099,
-      "discountPercentage": 11.83,
-      "rating": 4.54,
-      "stock": 96,
-      "brand": "Infinix",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/9/1.jpg",
-        "https://cdn.dummyjson.com/product-images/9/2.png",
-        "https://cdn.dummyjson.com/product-images/9/3.png",
-        "https://cdn.dummyjson.com/product-images/9/4.jpg",
-        "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": "40",
-      "title": "HP Pavilion 15-DK1056WM",
-      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-      "price": 1099,
-      "discountPercentage": 6.18,
-      "rating": 4.43,
-      "stock": 89,
-      "brand": "HP Pavilion",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/10/1.jpg",
-        "https://cdn.dummyjson.com/product-images/10/2.jpg",
-        "https://cdn.dummyjson.com/product-images/10/3.jpg",
-        "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
-      ]
-    },
-    {
-      "id": "1a76",
-      "title": "Laundry Basket",
-      "description": "Laundry Basket",
-      "price": 300,
-      "discountPrice": 150,
-      "stock": 10,
-      "shippingCost": 80,
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/codeviq-news.appspot.com/o/product%2Fbag1.jpeg?alt=media&token=bc4d2819-3e59-4afc-969b-8d6838576f5d",
-      "brand": "",
-      "categories": "",
-      "images": [
-        "https://firebasestorage.googleapis.com/v0/b/codeviq-news.appspot.com/o/product%2Fbag2.jpeg?alt=media&token=da7bf74a-170d-431e-94e2-711fc901a5ea",
-        "https://firebasestorage.googleapis.com/v0/b/codeviq-news.appspot.com/o/product%2Fbag3.jpeg?alt=media&token=c17af4be-ea0a-4988-8fe7-06b86e577672",
-        "https://firebasestorage.googleapis.com/v0/b/codeviq-news.appspot.com/o/product%2Fbag4.jpeg?alt=media&token=e4bf6e8a-681b-48df-93b1-5df79e536db4"
-      ],
-      "rating": 0
     }
   ],
   "brands": [
@@ -4227,6 +4081,86 @@
         "state": "uttar pradesh",
         "pinCode": "2231703",
         "country": "India"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "2fbd",
+      "items": [
+        {
+          "id": "72d8",
+          "title": "Basic Tee",
+          "href": "#",
+          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
+          "imageAlt": "Front of men's Basic Tee in black.",
+          "price": 900,
+          "discountPrice": 500,
+          "color": "Black",
+          "category": "tShirt",
+          "brand": "puma",
+          "totalCount": 117,
+          "ratingAverage": 4,
+          "shippingCost": 80,
+          "stock": 32,
+          "images": [
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+          ],
+          "description": "Basic Tee",
+          "categories": "",
+          "rating": 0,
+          "quantity": 3,
+          "users": "b501"
+        },
+        {
+          "id": "315f",
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_lotion.png?updatedAt=1712418088731",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/3/1.jpg"
+          ],
+          "quantity": 1,
+          "users": "b501"
+        }
+      ],
+      "totalAmount": null,
+      "totalItems": 4,
+      "user": {
+        "id": "b501",
+        "email": "navya@gmail.com",
+        "password": "navya@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "navya dhawde",
+            "email": "navya@gmail.com",
+            "phone": "9044207635",
+            "country": "India",
+            "street": "dihwa bhadi",
+            "city": "shahaganj",
+            "state": "uttar pradesh",
+            "pinCode": "223101"
+          }
+        ]
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "navya dhawde",
+        "email": "navya@gmail.com",
+        "phone": "9044207635",
+        "country": "India",
+        "street": "dihwa bhadi",
+        "city": "shahaganj",
+        "state": "uttar pradesh",
+        "pinCode": "223101"
       },
       "status": "pending"
     }

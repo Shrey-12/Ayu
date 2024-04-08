@@ -27,7 +27,6 @@ import {
 } from "@heroicons/react/20/solid";
 import { Link, useLocation } from "react-router-dom";
 import { ITEM_PER_PAGE } from "../../../app/constants";
-import { useLocation } from "react-router-dom";
 
 const sortOptions = [
   { name: "Best Rating", sort: "rating", order: "desc", current: false },
@@ -45,16 +44,6 @@ export default function ProductList() {
   const totalItems = useSelector(selectTotalItems);
   const brands = useSelector(selectBrands);
   const categories = useSelector(selectCategories);
-  
-  const location = useLocation();
-  const searchParams = new URLSearchParams(location.search);
-  const categoryId = searchParams.get('categoryId');
-
-  useEffect(() => {
-    if (categoryId === 'bf2a') {
-      // Fetch skincare products or apply skincare filter
-    }
-  }, [categoryId]);
 
 
   const filters = [

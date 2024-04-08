@@ -9,8 +9,10 @@ import AyuLogo from '../../assets/images/AyuLogo.png'
 import medimg from '../../assets/images/medimg.png'
 import plantimg from '../../assets/images/plantimg.png'
 import skincareimg from '../../assets/images/skincareimg.png'
+import haircareimg from '../../assets/images/haircareimg.png'
 import media from '../../assets/images/media.png'
 import welcome from '../../assets/images/welcome.jpg'
+import productbg from '../../assets/images/productbg.png'
 import { Link,useNavigate} from 'react-router-dom';
 
 
@@ -41,6 +43,20 @@ const Intro = () => {
 )
     } catch (error) {
       console.error('Error fetching skincare products:', error);
+      // Handle error if needed
+    }
+  };
+
+  const handleHaircareClick = async () => {
+    try {
+      // await dispatch(fetchSkincareAsync());
+      const val = "Haircare";
+      navigate('/shop',{
+        state: {val}
+      }
+)
+    } catch (error) {
+      console.error('Error fetching haircare products:', error);
       // Handle error if needed
     }
   };
@@ -100,8 +116,8 @@ const Intro = () => {
         </h3>
         <h4 className='home-rec-text'
         style={{ fontSize: '0.7rem', textAlign:'center' }}>
-        Experience the purity of nature with our products, <br/>
-        meticulously formulated with 100% natural extracts.
+        Indulge in cruelty-free wellness with our Ayurvedic creations,<br/>
+        honoring the principles of compassion and sustainability
        
         </h4>
         </div>
@@ -117,8 +133,8 @@ const Intro = () => {
         </h5>
         <h6 className='home-rec-text'
         style={{ fontSize: '0.7rem', textAlign:'center' }}>
-        Experience the purity of nature with our products, <br/>
-        meticulously formulated with 100% natural extracts.
+        Unveil the essence of environmental mindfulness in our products,<br/>
+        harmonizing with nature for a healthier planet and a vibrant you.
        
         </h6>
         </div>
@@ -132,37 +148,60 @@ const Intro = () => {
             </div>
        </div>
       </div>
-      <div className='home-products bg-customWhite' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding:'50px'}}>
-        <h1 className='home-producthead-text my-6' style={{ fontSize: '2.3rem'}}>
-          OUR PRODUCTS
-        </h1>
-        <div className='flex justify-center'>
-          <div className='skincare ml-10 mr-10' style={{textAlign: 'center'}}>
-          
-            <img src={skincareimg} className="skincare-img" style={{ width: '150px', height: '100%' }} alt="Skincare"/>
-           <div className='home-rounded-box mt-5' onClick={handleSkincareClick}>
-            <h1> SKINCARE</h1>
-          </div>
-
-          </div>
-          <div className='health ml-10 mr-10' style={{ textAlign: 'center'}} onClick={handleMedicinesClick}>
-            <img src={medimg} className="healthcare-img" style={{ width: '150px', height: '100%' }} alt="Health"/>
-          </div>
-          <div className='plants ml-10 mr-10' style={{textAlign: 'center' }}>
-            <img src={plantimg} className="plants-img" style={{ width: '150px', height: '100%' }} alt="Plants"/>
-          </div>
+     <div className='product-grid' style={{ backgroundImage: `url(${productbg}.png)`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+  <div className='bg-customWhite py-10 px-14 '>
+    <h1 className='home-producthead-text ' style={{ fontSize: '2.6rem', textAlign: 'center' }}>
+      OUR PRODUCTS
+    </h1>
+    <h2 className='home-rec-text mb-4'style={{ fontSize: '0.8rem', textAlign: 'center', color:'black'}}>CHECK OUT OUR RANGE OF PRODUCTS</h2>
+    <div className='product-boxes flex justify-center pb-12'> {/* Added 'flex justify-center' to center the images */}
+      <div className='home-product-box bg-customWhite'>
+      <div className='mt-5' onClick={handleMedicinesClick}>
+        <div className="flex justify-center"> {/* Added 'flex justify-center' to center the image */}
+          <img src={medimg} alt='Product 1' className='product-image' />
+        </div>
+        <h3 className="home-pro-text mt-4">Medicines</h3> {/* Added 'home-pro-text' to center the text */}
         </div>
       </div>
+      <div className='home-product-box bg-customWhite'>
+      <div className='mt-5' onClick={handleSkincareClick}>
+        <div className="flex justify-center"> {/* Added 'flex justify-center' to center the image */}
+          <img src={skincareimg} alt='Product 2' className='product-image' />
+        </div>
+        <h3 className="home-pro-text mt-4">Skincare</h3>
+        </div>
+      </div>
+      <div className='home-product-box bg-customWhite'>
+      <div className='mt-5' onClick={handleHaircareClick}>
+        <div className="flex justify-center"> {/* Added 'flex justify-center' to center the image */}
+          <img src={haircareimg} alt='Product 4' className='product-image' />
+        </div>
+        <h3 className="home-pro-text mt-4">Haircare</h3> {/* Added 'home-pro-text' to center the text */}
+        </div>
+      </div>
+      <div className='home-product-box bg-customWhite'>
+      <div className='mt-5' onClick={handlePlantsClick}>
+        <div className="flex justify-center"> {/* Added 'flex justify-center' to center the image */}
+          <img src={plantimg} alt='Product 3' className='product-image' />
+        </div>
+        <h3 className="home-pro-text mt-4">Plants</h3> {/* Added 'home-pro-text' to center the text */}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-      <div className='welcome-article px-14 py-14 bg-customTan'>
+
+
+    <div className='welcome-article px-14 py-14 bg-customTan'>
   <div className="flex items-start justify-start">
     <div className="welcome-img ml-14">
       <img src={welcome} className="welcomeimg" style={{ width: '400px', height: '100%' }}/>
     </div>
     <div className="home-box bg-customSage ml-[-50px] mt-12 z-10 relative">
       <div className='flex flex-col justify-start px-4 py-2'>
-        <h1 className='welcome-head text-customTan' style={{ fontSize: '2.7rem', textAlign: 'start'}}>
-          Welcome!
+        <h1 className='welcome-head text-customTan ml-1' style={{ fontSize: '2.7rem', textAlign: 'start'}}>
+          Hello!
         </h1>
         <h2 className='home-rec-text px-2 py-1'>
         Embark on a journey through our Ayurveda website, where ancient wisdom merges seamlessly with modern wellness practices.
