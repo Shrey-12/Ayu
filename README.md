@@ -2,10 +2,8 @@
 
 
 
-Uploading ca59f378-afd7-4e0b-ac32-7ec1010faedd.mp4…
 
-
-
+https://github.com/Shrey-12/Ayu/assets/98189346/e3bd04f0-66dd-462b-9367-5073d5e6504b
 
 
 How to run this project ?
