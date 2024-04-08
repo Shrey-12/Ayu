@@ -16,9 +16,9 @@
       "shippingCost": 80,
       "stock": 32,
       "images": [
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
+        "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
+        "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793"
       ],
       "description": "Refreshing & Skin Brightening Shower Gel",
       "categories": "",
@@ -92,8 +92,8 @@
       "id": "5",
       "title": "Bloom Organic Body Lotion",
       "description": "24-hr Hydrating Organic Body Lotion",
-      "price": 349,
-      "discountPercentage": 15.46,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.09,
       "stock": 36,
       "brand": "Bloom",
@@ -107,8 +107,8 @@
       "id": "6",
       "title": "Just Herbs Facial Serum",
       "description": "ELIXIR Facial Seru.",
-      "price": 680,
-      "discountPercentage": 17.91,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.3,
       "stock": 123,
       "shippingCost": 80,
@@ -127,8 +127,8 @@
       "id": "7",
       "title": "Khadi Natural Face Pack",
       "description": "Neem, Basil & Mint Face Pack",
-      "price": 499,
-      "discountPercentage": 10.58,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.09,
       "stock": 32,
       "brand": "Khadi Naturals",
@@ -144,8 +144,8 @@
       "id": "8",
       "title": "SoulTree Hibiscus Shampp",
       "description": "Hibiscus Shampoo with Honey & Aloe Vera",
-      "price": 749,
-      "discountPercentage": 11.02,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.57,
       "stock": 83,
       "brand": "SoulTree",
@@ -162,8 +162,8 @@
       "id": "9",
       "title": "Kama Ayurveda Cleanser",
       "description": "Geranium Cleansing Cream",
-      "price": 599,
-      "discountPercentage": 4.15,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.25,
       "stock": 50,
       "brand": "Kama Ayurveda",
@@ -180,8 +180,8 @@
       "id": "10",
       "title": "Kama Ayurveda Rose Cleanser",
       "description": "Rose Jasmine Face Cleanser",
-      "price": 499,
-      "discountPercentage": 10.23,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.43,
       "stock": 68,
       "brand": "Kama Ayurveda",
@@ -199,8 +199,8 @@
       "id": "11",
       "title": "Khadi Natural Conditioner",
       "description": "Amla & Reetha Conditioner",
-      "price": 499,
-      "discountPercentage": 11.83,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.54,
       "stock": 96,
       "brand": "Khadi Naturals",
@@ -212,7 +212,6 @@
         "https://ik.imagekit.io/whvypz4ih/KN_conditioner.jpg?updatedAt=1712497203186"
       ],
       "deleted": true,
-      "discountPrice": 10,
       "shippingCost": 80,
       "categories": ""
     },
@@ -220,8 +219,8 @@
       "id": "12",
       "title": "Kama Ayurveda Body Butter",
       "description": "Kokum & Almond Body Butter",
-      "price": 399,
-      "discountPercentage": 6.18,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.43,
       "stock": 89,
       "brand": "Kama Ayurveda",
@@ -240,8 +239,8 @@
       "href": "#",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_tablets.jpg?updatedAt=1712497203395",
       "imageAlt": "Front of men's Basic Tee in black.",
-      "price": 500,
-      "discountPrice": "300",
+      "price": 900,
+      "discountPrice": 700,
       "color": "Black",
       "category": "Medicines",
       "brand": "Jiva Ayurveda",
@@ -285,8 +284,8 @@
       "id": "16",
       "title": "Khadi Natural Cream",
       "description": "Anti-Blemish Cream",
-      "price": 499,
-      "discountPercentage": 17.94,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.44,
       "stock": 34,
       "brand": "Khadi Naturals",
@@ -303,8 +302,8 @@
       "id": "17",
       "title": "Khadi Natural Oil",
       "description": "Organic Cold Pressed Hemp Oil",
-      "price": 349,
-      "discountPercentage": 15.46,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.09,
       "stock": 36,
       "brand": "Khadi Naturals",
@@ -318,8 +317,8 @@
       "id": "18",
       "title": "SoulTree Kumkumadi Cleanser",
       "description": "Kumkumadi Advanced Cleanser",
-      "price": 280,
-      "discountPercentage": 17.91,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.3,
       "stock": 123,
       "brand": "Soul Tree",
@@ -337,8 +336,8 @@
       "id": "19",
       "title": "Amritadi Tablets",
       "description": "Health Tablets",
-      "price": 499,
-      "discountPercentage": 10.58,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.09,
       "stock": 32,
       "brand": "Jiva Ayurveda",
@@ -354,8 +353,8 @@
       "id": "20",
       "title": "Isha Tablets",
       "description": "Neem Tablets",
-      "price": 549,
-      "discountPercentage": 11.02,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.57,
       "stock": 83,
       "brand": "Jiva Ayurveda",
@@ -373,8 +372,8 @@
       "id": "21",
       "title": "Sri Sri Syrup",
       "description": "Raktavardhini Syrup",
-      "price": 399,
-      "discountPercentage": 4.15,
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.25,
       "stock": 50,
       "brand": "Jiva Ayurveda",
@@ -388,258 +387,150 @@
       ]
     },
     {
-      "id": "18",
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
+      "id": "22",
+      "title": "Turmeric Plant",
+      "description": "Turmeric Plant",
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.43,
       "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+      "brand": "Aasha",
+      "category": "Plants",
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
       "images": [
-        "https://cdn.dummyjson.com/product-images/8/1.jpg",
-        "https://cdn.dummyjson.com/product-images/8/2.jpg",
-        "https://cdn.dummyjson.com/product-images/8/3.jpg",
-        "https://cdn.dummyjson.com/product-images/8/4.jpg",
-        "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+        "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+        "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+        "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+        "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+        "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332"
       ]
     },
     {
-      "id": "19",
-      "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-      "price": 1099,
-      "discountPercentage": 11.83,
+      "id": "23",
+      "title": "Lemongrass",
+      "description": "Lemon grass",
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.54,
       "stock": 96,
-      "brand": "Infinix",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
+      "brand": "Aasha",
+      "category": "Plants",
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot8.jpg?updatedAt=1712599273046",
       "images": [
-        "https://cdn.dummyjson.com/product-images/9/1.jpg",
-        "https://cdn.dummyjson.com/product-images/9/2.png",
-        "https://cdn.dummyjson.com/product-images/9/3.png",
-        "https://cdn.dummyjson.com/product-images/9/4.jpg",
-        "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
+        "https://ik.imagekit.io/91yxvha4u/pot8.jpg?updatedAt=1712599273046",
+        "https://ik.imagekit.io/91yxvha4u/pot8.jpg?updatedAt=1712599273046",
+        "https://ik.imagekit.io/91yxvha4u/pot8.jpg?updatedAt=1712599273046",
+        "https://ik.imagekit.io/91yxvha4u/pot8.jpg?updatedAt=1712599273046",
+        "https://ik.imagekit.io/91yxvha4u/pot8.jpg?updatedAt=1712599273046"
       ]
     },
     {
-      "id": "20",
-      "title": "HP Pavilion 15-DK1056WM",
-      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-      "price": 1099,
-      "discountPercentage": 6.18,
+      "id": "24",
+      "title": "Petunia",
+      "description": "Petunia",
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.43,
       "stock": 89,
-      "brand": "HP Pavilion",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+      "brand": "Aasha",
+      "category": "Plants",
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
       "images": [
-        "https://cdn.dummyjson.com/product-images/10/1.jpg",
-        "https://cdn.dummyjson.com/product-images/10/2.jpg",
-        "https://cdn.dummyjson.com/product-images/10/3.jpg",
-        "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+        "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+        "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+        "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+        "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074"
       ]
     },
     {
-      "id": "31",
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPrice": 449,
+      "id": "25",
+      "title": "Spinach",
+      "description": "Palak",
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.69,
       "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+      "brand": "Aasha",
+      "category": "Plants",
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot6.jpg?updatedAt=1712599273078",
       "images": [
-        "https://cdn.dummyjson.com/product-images/1/1.jpg",
-        "https://cdn.dummyjson.com/product-images/1/2.jpg",
-        "https://cdn.dummyjson.com/product-images/1/3.jpg",
-        "https://cdn.dummyjson.com/product-images/1/4.jpg",
-        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+        "https://ik.imagekit.io/91yxvha4u/pot6.jpg?updatedAt=1712599273078",
+        "https://ik.imagekit.io/91yxvha4u/pot6.jpg?updatedAt=1712599273078",
+        "https://ik.imagekit.io/91yxvha4u/pot6.jpg?updatedAt=1712599273078",
+        "https://ik.imagekit.io/91yxvha4u/pot6.jpg?updatedAt=1712599273078",
+        "https://ik.imagekit.io/91yxvha4u/pot6.jpg?updatedAt=1712599273078"
       ]
     },
     {
-      "id": "32",
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "discountPercentage": 17.94,
+      "id": "26",
+      "title": "Papaya",
+      "description": "Papaya",
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.44,
       "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+      "brand": "Aasha",
+      "category": "Plants",
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot4.jpg?updatedAt=1712599272916",
       "images": [
-        "https://cdn.dummyjson.com/product-images/2/1.jpg",
-        "https://cdn.dummyjson.com/product-images/2/2.jpg",
-        "https://cdn.dummyjson.com/product-images/2/3.jpg",
-        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+        "https://ik.imagekit.io/91yxvha4u/pot4.jpg?updatedAt=1712599272916",
+        "https://ik.imagekit.io/91yxvha4u/pot4.jpg?updatedAt=1712599272916",
+        "https://ik.imagekit.io/91yxvha4u/pot4.jpg?updatedAt=1712599272916",
+        "https://ik.imagekit.io/91yxvha4u/pot4.jpg?updatedAt=1712599272916"
       ]
     },
     {
-      "id": "33",
-      "title": "Samsung Universe 9",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
-      "discountPercentage": 15.46,
+      "id": "27",
+      "title": "Coconut",
+      "description": "Coconut",
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.09,
       "stock": 36,
-      "brand": "Samsung",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
+      "brand": "Aasha",
+      "category": "Plants",
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot5.jpg?updatedAt=1712599272833",
       "images": [
-        "https://cdn.dummyjson.com/product-images/3/1.jpg"
+        "https://ik.imagekit.io/91yxvha4u/pot5.jpg?updatedAt=1712599272833"
       ]
     },
     {
-      "id": "34",
-      "title": "OPPOF19",
-      "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
-      "discountPercentage": 17.91,
+      "id": "28",
+      "title": "Fenugreek",
+      "description": "Fenugreek",
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.3,
       "stock": 123,
-      "brand": "OPPO",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
+      "brand": "Kasturi",
+      "shippingCost": 700,
+      "category": "Plants",
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot1.jpg?updatedAt=1712599272875",
       "images": [
-        "https://cdn.dummyjson.com/product-images/4/1.jpg",
-        "https://cdn.dummyjson.com/product-images/4/2.jpg",
-        "https://cdn.dummyjson.com/product-images/4/3.jpg",
-        "https://cdn.dummyjson.com/product-images/4/4.jpg",
-        "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+        "https://ik.imagekit.io/91yxvha4u/pot1.jpg?updatedAt=1712599272875",
+        "https://ik.imagekit.io/91yxvha4u/pot1.jpg?updatedAt=1712599272875",
+        "https://ik.imagekit.io/91yxvha4u/pot1.jpg?updatedAt=1712599272875",
+        "https://ik.imagekit.io/91yxvha4u/pot1.jpg?updatedAt=1712599272875",
+        "https://ik.imagekit.io/91yxvha4u/pot1.jpg?updatedAt=1712599272875"
       ]
     },
     {
-      "id": "35",
-      "title": "Huawei P30",
-      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-      "price": 499,
-      "discountPercentage": 10.58,
+      "id": "29",
+      "title": "Vidya",
+      "description": "Vidya",
+      "price": 900,
+      "discountPrice": 700,
       "rating": 4.09,
       "stock": 32,
-      "brand": "Huawei",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+      "brand": "Shagun",
+      "category": "Plants",
+      "shippingCost": 700,
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
       "images": [
-        "https://cdn.dummyjson.com/product-images/5/1.jpg",
-        "https://cdn.dummyjson.com/product-images/5/2.jpg",
-        "https://cdn.dummyjson.com/product-images/5/3.jpg"
+        "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
+        "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
+        "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910"
       ]
-    },
-    {
-      "id": "36",
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
-      "discountPercentage": 11.02,
-      "rating": 4.57,
-      "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/6/1.png",
-        "https://cdn.dummyjson.com/product-images/6/2.jpg",
-        "https://cdn.dummyjson.com/product-images/6/3.png",
-        "https://cdn.dummyjson.com/product-images/6/4.jpg"
-      ]
-    },
-    {
-      "id": "37",
-      "title": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-      "price": 1499,
-      "discountPercentage": 4.15,
-      "rating": 4.25,
-      "stock": 50,
-      "brand": "Samsung",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/7/1.jpg",
-        "https://cdn.dummyjson.com/product-images/7/2.jpg",
-        "https://cdn.dummyjson.com/product-images/7/3.jpg",
-        "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": "38",
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
-      "rating": 4.43,
-      "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/8/1.jpg",
-        "https://cdn.dummyjson.com/product-images/8/2.jpg",
-        "https://cdn.dummyjson.com/product-images/8/3.jpg",
-        "https://cdn.dummyjson.com/product-images/8/4.jpg",
-        "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": "39",
-      "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-      "price": 1099,
-      "discountPercentage": 11.83,
-      "rating": 4.54,
-      "stock": 96,
-      "brand": "Infinix",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/9/1.jpg",
-        "https://cdn.dummyjson.com/product-images/9/2.png",
-        "https://cdn.dummyjson.com/product-images/9/3.png",
-        "https://cdn.dummyjson.com/product-images/9/4.jpg",
-        "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": "40",
-      "title": "HP Pavilion 15-DK1056WM",
-      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-      "price": 1099,
-      "discountPercentage": 6.18,
-      "rating": 4.43,
-      "stock": 89,
-      "brand": "HP Pavilion",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/10/1.jpg",
-        "https://cdn.dummyjson.com/product-images/10/2.jpg",
-        "https://cdn.dummyjson.com/product-images/10/3.jpg",
-        "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
-      ]
-    },
-    {
-      "id": "1a76",
-      "title": "Laundry Basket",
-      "description": "Laundry Basket",
-      "price": 300,
-      "discountPrice": 150,
-      "stock": 10,
-      "shippingCost": 80,
-      "thumbnail": "https://firebasestorage.googleapis.com/v0/b/codeviq-news.appspot.com/o/product%2Fbag1.jpeg?alt=media&token=bc4d2819-3e59-4afc-969b-8d6838576f5d",
-      "brand": "",
-      "categories": "",
-      "images": [
-        "https://firebasestorage.googleapis.com/v0/b/codeviq-news.appspot.com/o/product%2Fbag2.jpeg?alt=media&token=da7bf74a-170d-431e-94e2-711fc901a5ea",
-        "https://firebasestorage.googleapis.com/v0/b/codeviq-news.appspot.com/o/product%2Fbag3.jpeg?alt=media&token=c17af4be-ea0a-4988-8fe7-06b86e577672",
-        "https://firebasestorage.googleapis.com/v0/b/codeviq-news.appspot.com/o/product%2Fbag4.jpeg?alt=media&token=e4bf6e8a-681b-48df-93b1-5df79e536db4"
-      ],
-      "rating": 0
     }
   ],
   "brands": [
@@ -676,6 +567,24 @@
     {
       "value": "Jiva Ayurveda",
       "label": "Jiva Ayurveda",
+      "checked": false,
+      "id": "466a"
+    },
+    {
+      "value": "Shagun",
+      "label": "Shagun",
+      "checked": false,
+      "id": "466a"
+    },
+    {
+      "value": "Kasturi",
+      "label": "Kasturi",
+      "checked": false,
+      "id": "466a"
+    },
+    {
+      "value": "Aasha",
+      "label": "Aasha",
       "checked": false,
       "id": "466a"
     }
@@ -787,138 +696,17 @@
   ],
   "cart": [
     {
-      "id": "db6a",
-      "title": "Basic Tee",
-      "href": "#",
-      "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-      "imageAlt": "Front of men's Basic Tee in black.",
-      "price": 900,
-      "discountPrice": 500,
-      "color": "Black",
-      "category": "tShirt",
-      "brand": "puma",
-      "totalCount": 117,
-      "ratingAverage": 4,
-      "shippingCost": 80,
-      "stock": 32,
-      "images": [
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-      ],
-      "description": "Basic Tee",
-      "categories": "",
-      "rating": 0,
-      "quantity": 3,
-      "users": "35c0"
-    },
-    {
-      "id": "72d8",
-      "title": "Basic Tee",
-      "href": "#",
-      "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-      "imageAlt": "Front of men's Basic Tee in black.",
-      "price": 900,
-      "discountPrice": 500,
-      "color": "Black",
-      "category": "tShirt",
-      "brand": "puma",
-      "totalCount": 117,
-      "ratingAverage": 4,
-      "shippingCost": 80,
-      "stock": 32,
-      "images": [
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-      ],
-      "description": "Basic Tee",
-      "categories": "",
-      "rating": 0,
-      "quantity": 3,
-      "users": "b501"
-    },
-    {
-      "id": "315f",
-      "title": "Samsung Universe 9",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
-      "discountPercentage": 15.46,
-      "rating": 4.09,
-      "stock": 36,
-      "brand": "Samsung",
-      "category": "smartphones",
-      "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_lotion.png?updatedAt=1712418088731",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/3/1.jpg"
-      ],
-      "quantity": 1,
-      "users": "b501"
-    },
-    {
-      "id": "fe5d",
-      "title": "Basic Tee",
-      "href": "#",
-      "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-      "imageAlt": "Front of men's Basic Tee in black.",
-      "price": 900,
-      "discountPrice": 500,
-      "color": "Black",
-      "category": "tShirt",
-      "brand": "puma",
-      "totalCount": 117,
-      "ratingAverage": 4,
-      "shippingCost": 80,
-      "stock": 32,
-      "images": [
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-      ],
-      "description": "Basic Tee",
-      "categories": "",
-      "rating": 0,
-      "quantity": 1,
-      "users": "dada"
-    },
-    {
-      "id": "bdb0",
-      "title": "Basic Tee",
-      "href": "#",
-      "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-      "imageAlt": "Front of men's Basic Tee in black.",
-      "price": 900,
-      "discountPrice": 500,
-      "color": "Black",
-      "category": "tShirt",
-      "brand": "puma",
-      "totalCount": 117,
-      "ratingAverage": 4,
-      "shippingCost": 80,
-      "stock": 32,
-      "images": [
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-      ],
-      "description": "Basic Tee",
-      "categories": "",
-      "rating": 0,
-      "quantity": 1,
-      "users": "3263"
-    },
-    {
-      "id": "a2a3",
-      "title": "Medium Stuff Satchel",
+      "id": "0270",
+      "title": "Just Herbs Complexion Pack",
       "href": "#",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_pack.jpg?updatedAt=1712418088954",
       "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-      "price": 12000,
-      "discountPrice": 10000,
+      "price": 1000,
+      "discountPrice": 650,
       "color": "Black",
       "totalCount": 17,
-      "category": "tShirt",
-      "brand": "addidas",
+      "category": "Skincare",
+      "brand": "Just Herbs",
       "ratingAverage": 3.7,
       "shippingCost": 80,
       "stock": 2,
@@ -927,1708 +715,102 @@
         " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
         " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
       ],
-      "description": "Medium Stuff Satchel",
+      "description": "InstaGlow Almond Complexion Pack",
       "categories": "",
       "rating": 0,
       "quantity": 1,
-      "users": "3263"
+      "users": "dada"
+    },
+    {
+      "id": "029b",
+      "title": "Petunia",
+      "description": "Petunia",
+      "price": 900,
+      "discountPrice": 700,
+      "rating": 4.43,
+      "stock": 89,
+      "brand": "Aasha",
+      "category": "Plants",
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+      "images": [
+        "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+        "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+        "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+        "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074"
+      ],
+      "quantity": 1,
+      "users": "dada"
+    },
+    {
+      "id": "73ec",
+      "title": "Vidya",
+      "description": "Vidya",
+      "price": 900,
+      "discountPrice": 700,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Shagun",
+      "category": "Plants",
+      "shippingCost": 700,
+      "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
+      "images": [
+        "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
+        "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
+        "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910"
+      ],
+      "quantity": 1,
+      "users": "dada"
     }
   ],
   "orders": [
     {
-      "id": "7f09",
+      "id": "8351",
       "items": [
         {
-          "id": "901d",
-          "title": "Medium Stuff Satchel",
-          "href": "#",
-          "thumbnail": "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-          "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-          "price": 550,
-          "discountPrice": 450,
-          "color": "Black",
-          "totalCount": 17,
-          "category": "tShirt",
-          "brand": "addidas",
-          "shippingCost": 80,
-          "ratingAverage": 3.7,
-          "stock": 2,
-          "images": [
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
-          ],
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 530,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "avinashmk42@gmail.com",
-        "password": "Abarai@123",
-        "addresses": [
-          {
-            "name": "shivam",
-            "email": "avinashmk42@gmail.com",
-            "phone": "8299177208",
-            "country": "India",
-            "street": "dihwa bhadi",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          },
-          {
-            "name": "mohan lal chaura",
-            "email": "mohan@gmail.com",
-            "phone": "8604288313",
-            "country": "India",
-            "street": "azamgarh road",
-            "city": "shahganj",
-            "state": "up",
-            "pinCode": "223101"
-          },
-          {
-            "name": "arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "country": "India",
-            "street": "bhedaura maharajganj",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "mohan lal chaura",
-        "email": "mohan@gmail.com",
-        "phone": "8604288313",
-        "country": "India",
-        "street": "azamgarh road",
-        "city": "shahganj",
-        "state": "up",
-        "pinCode": "223101"
-      },
-      "status": "delivered"
-    },
-    {
-      "id": "2860",
-      "items": [
-        {
-          "id": "30cc",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "avinashmk42@gmail.com",
-        "password": "Abarai@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "country": "India",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Shivam chaurasiya",
-        "email": "shivamshg1999@gmail.com",
-        "phone": "8957413082",
-        "country": "India",
-        "street": "dihwa bhadi,shahganj",
-        "city": "Shahganj",
-        "state": "uttar pradesh",
-        "pinCode": "223101"
-      },
-      "status": "dispatched"
-    },
-    {
-      "id": "1d39",
-      "items": [
-        {
-          "id": "39a9",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "dada"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "dada",
-        "email": "pari@gmail.com",
-        "password": "pari@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "pari",
-            "email": "pari@gmail.com",
-            "phone": "7620625748",
-            "country": "India",
-            "street": "IIIT Guwahatu",
-            "city": "guwahati",
-            "state": "Andhra Pradesh",
-            "pinCode": "781015"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "pari",
-        "email": "pari@gmail.com",
-        "phone": "7620625748",
-        "country": "India",
-        "street": "IIIT Guwahatu",
-        "city": "guwahati",
-        "state": "Andhra Pradesh",
-        "pinCode": "781015"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "3f9a",
-      "items": [
-        {
-          "id": "3fe1",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 2,
-          "users": "dada"
-        }
-      ],
-      "totalAmount": 1080,
-      "totalItems": 2,
-      "user": {
-        "id": "dada",
-        "email": "pari@gmail.com",
-        "password": "pari@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "pari",
-            "email": "pari@gmail.com",
-            "phone": "7620625748",
-            "country": "India",
-            "street": "IIIT Guwahatu",
-            "city": "guwahati",
-            "state": "Andhra Pradesh",
-            "pinCode": "781015"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "pari",
-        "email": "pari@gmail.com",
-        "phone": "7620625748",
-        "country": "India",
-        "street": "IIIT Guwahatu",
-        "city": "guwahati",
-        "state": "Andhra Pradesh",
-        "pinCode": "781015"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "5044",
-      "items": [
-        {
-          "id": "71b2",
-          "title": "Microsoft Surface Laptop 4",
-          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "id": "ebe8",
+          "title": "Turmeric Plant",
+          "description": "Turmeric Plant",
           "price": 1499,
           "discountPercentage": 10.23,
           "rating": 4.43,
           "stock": 68,
-          "brand": "Microsoft Surface",
-          "category": "laptops",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+          "brand": "Aasha",
+          "category": "Plants",
+          "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
           "images": [
-            "https://cdn.dummyjson.com/product-images/8/1.jpg",
-            "https://cdn.dummyjson.com/product-images/8/2.jpg",
-            "https://cdn.dummyjson.com/product-images/8/3.jpg",
-            "https://cdn.dummyjson.com/product-images/8/4.jpg",
-            "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332"
           ],
-          "quantity": 2,
-          "users": "3263"
+          "quantity": 1,
+          "users": "dada"
+        },
+        {
+          "id": "33f8",
+          "title": "Petunia",
+          "description": "Petunia",
+          "price": 1599,
+          "discountPercentage": 6.18,
+          "rating": 4.43,
+          "stock": 89,
+          "brand": "Aasha",
+          "category": "Plants",
+          "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+          "images": [
+            "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+            "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+            "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+            "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074"
+          ],
+          "quantity": 1,
+          "users": "dada"
         }
       ],
       "totalAmount": null,
       "totalItems": 2,
       "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "1a7f",
-      "items": [
-        {
-          "id": "d35f",
-          "title": "Medium Stuff Satchel",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_pack.jpg?updatedAt=1712418088954",
-          "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-          "price": 12000,
-          "discountPrice": 10000,
-          "color": "Black",
-          "totalCount": 17,
-          "category": "tShirt",
-          "brand": "addidas",
-          "ratingAverage": 3.7,
-          "shippingCost": 80,
-          "stock": 2,
-          "images": [
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
-          ],
-          "description": "Medium Stuff Satchel",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 10080,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "c201",
-      "items": [
-        {
-          "id": "d8fc",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Shivam chaurasiya",
-        "email": "shivamshg1999@gmail.com",
-        "phone": "8957413082",
-        "country": "India",
-        "street": "dihwa bhadi,shahganj",
-        "city": "Shahganj",
-        "state": "uttar pradesh",
-        "pinCode": "223101"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "2726",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "88d0",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "db0c",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "0965",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "1c6e",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "539b",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "ae28",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "c84b",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Shivam chaurasiya",
-        "email": "shivamshg1999@gmail.com",
-        "phone": "8957413082",
-        "country": "India",
-        "street": "dihwa bhadi,shahganj",
-        "city": "Shahganj",
-        "state": "uttar pradesh",
-        "pinCode": "223101"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "aa7f",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "53bd",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "d4ea",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "d4a2",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "1126",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "76bd",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "0660",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "81ba",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Shivam chaurasiya",
-        "email": "shivamshg1999@gmail.com",
-        "phone": "8957413082",
-        "country": "India",
-        "street": "dihwa bhadi,shahganj",
-        "city": "Shahganj",
-        "state": "uttar pradesh",
-        "pinCode": "223101"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "a23e",
-      "items": [
-        {
-          "id": "f2e0",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "dada"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
         "id": "dada",
         "email": "pari@gmail.com",
         "password": "pari@123",
@@ -2660,1445 +842,108 @@
       "status": "pending"
     },
     {
-      "id": "242b",
+      "id": "76b3",
       "items": [
         {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
+          "id": "ebe8",
+          "title": "Turmeric Plant",
+          "description": "Turmeric Plant",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Aasha",
+          "category": "Plants",
+          "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
           "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332",
+            "https://ik.imagekit.io/91yxvha4u/pot2.jpg?updatedAt=1712599272332"
           ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "07c5",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "7396",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "8282",
-      "items": [
-        {
-          "id": "f2e0",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
           "quantity": 1,
           "users": "dada"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "dada",
-        "email": "pari@gmail.com",
-        "password": "pari@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "pari",
-            "email": "pari@gmail.com",
-            "phone": "7620625748",
-            "country": "India",
-            "street": "IIIT Guwahatu",
-            "city": "guwahati",
-            "state": "Andhra Pradesh",
-            "pinCode": "781015"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "pari",
-        "email": "pari@gmail.com",
-        "phone": "7620625748",
-        "country": "India",
-        "street": "IIIT Guwahatu",
-        "city": "guwahati",
-        "state": "Andhra Pradesh",
-        "pinCode": "781015"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "ced2",
-      "items": [
-        {
-          "id": "fe5d",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "dada"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "dada",
-        "email": "pari@gmail.com",
-        "password": "pari@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "pari",
-            "email": "pari@gmail.com",
-            "phone": "7620625748",
-            "country": "India",
-            "street": "IIIT Guwahatu",
-            "city": "guwahati",
-            "state": "Andhra Pradesh",
-            "pinCode": "781015"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "pari",
-        "email": "pari@gmail.com",
-        "phone": "7620625748",
-        "country": "India",
-        "street": "IIIT Guwahatu",
-        "city": "guwahati",
-        "state": "Andhra Pradesh",
-        "pinCode": "781015"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "cf5d",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "2b85",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "ab22",
-      "items": [
-        {
-          "id": "fe5d",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "dada"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "dada",
-        "email": "pari@gmail.com",
-        "password": "pari@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "pari",
-            "email": "pari@gmail.com",
-            "phone": "7620625748",
-            "country": "India",
-            "street": "IIIT Guwahatu",
-            "city": "guwahati",
-            "state": "Andhra Pradesh",
-            "pinCode": "781015"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "pari",
-        "email": "pari@gmail.com",
-        "phone": "7620625748",
-        "country": "India",
-        "street": "IIIT Guwahatu",
-        "city": "guwahati",
-        "state": "Andhra Pradesh",
-        "pinCode": "781015"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "9c2a",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "5c0e",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "af2e",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "b72e",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "c9ea",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "c490",
-      "items": [
-        {
-          "id": "abad",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "7164",
-      "items": [
-        {
-          "id": "bdb0",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "c781",
-      "items": [
-        {
-          "id": "bdb0",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "0c0f",
-      "items": [
-        {
-          "id": "bdb0",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 580,
-      "totalItems": 1,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "f498",
-      "items": [
-        {
-          "id": "bdb0",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
         },
         {
-          "id": "4db6",
-          "title": "Medium Stuff Satchel",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_pack.jpg?updatedAt=1712418088954",
-          "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-          "price": 12000,
-          "discountPrice": 10000,
-          "color": "Black",
-          "totalCount": 17,
-          "category": "tShirt",
-          "brand": "addidas",
-          "ratingAverage": 3.7,
-          "shippingCost": 80,
-          "stock": 2,
+          "id": "33f8",
+          "title": "Petunia",
+          "description": "Petunia",
+          "price": 1599,
+          "discountPercentage": 6.18,
+          "rating": 4.43,
+          "stock": 89,
+          "brand": "Aasha",
+          "category": "Plants",
+          "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
           "images": [
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
+            "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+            "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+            "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
+            "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074"
           ],
-          "description": "Medium Stuff Satchel",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 10660,
-      "totalItems": 2,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Shivam chaurasiya",
-        "email": "shivamshg1999@gmail.com",
-        "phone": "8957413082",
-        "country": "India",
-        "street": "dihwa bhadi,shahganj",
-        "city": "Shahganj",
-        "state": "uttar pradesh",
-        "pinCode": "223101"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "3370",
-      "items": [
-        {
-          "id": "bdb0",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        },
-        {
-          "id": "4db6",
-          "title": "Medium Stuff Satchel",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_pack.jpg?updatedAt=1712418088954",
-          "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-          "price": 12000,
-          "discountPrice": 10000,
-          "color": "Black",
-          "totalCount": 17,
-          "category": "tShirt",
-          "brand": "addidas",
-          "ratingAverage": 3.7,
-          "shippingCost": 80,
-          "stock": 2,
-          "images": [
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-            " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
-          ],
-          "description": "Medium Stuff Satchel",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        }
-      ],
-      "totalAmount": 10660,
-      "totalItems": 2,
-      "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
-        "role": "user",
-        "addresses": [
-          {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
-            "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "e2ad",
-      "items": [
-        {
-          "id": "fe5d",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
           "quantity": 1,
           "users": "dada"
         }
       ],
-      "totalAmount": 580,
+      "totalAmount": null,
+      "totalItems": 2,
+      "user": {
+        "id": "dada",
+        "email": "pari@gmail.com",
+        "password": "pari@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "pari",
+            "email": "pari@gmail.com",
+            "phone": "7620625748",
+            "country": "India",
+            "street": "IIIT Guwahatu",
+            "city": "guwahati",
+            "state": "Andhra Pradesh",
+            "pinCode": "781015"
+          }
+        ]
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "pari",
+        "email": "pari@gmail.com",
+        "phone": "7620625748",
+        "country": "India",
+        "street": "IIIT Guwahatu",
+        "city": "guwahati",
+        "state": "Andhra Pradesh",
+        "pinCode": "781015"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "7c94",
+      "items": [
+        {
+          "id": "73ec",
+          "title": "Vidya",
+          "description": "Vidya",
+          "price": 900,
+          "discountPrice": 700,
+          "rating": 4.09,
+          "stock": 32,
+          "brand": "Shagun",
+          "category": "Plants",
+          "shippingCost": 700,
+          "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
+          "images": [
+            "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
+            "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
+            "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910"
+          ],
+          "quantity": 1,
+          "users": "dada"
+        }
+      ],
+      "totalAmount": 1400,
       "totalItems": 1,
       "user": {
         "id": "dada",
@@ -4132,46 +977,20 @@
       "status": "pending"
     },
     {
-      "id": "c7e7",
+      "id": "dcbb",
       "items": [
         {
-          "id": "bdb0",
-          "title": "Basic Tee",
-          "href": "#",
-          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
-          "imageAlt": "Front of men's Basic Tee in black.",
-          "price": 900,
-          "discountPrice": 500,
-          "color": "Black",
-          "category": "tShirt",
-          "brand": "puma",
-          "totalCount": 117,
-          "ratingAverage": 4,
-          "shippingCost": 80,
-          "stock": 32,
-          "images": [
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-          ],
-          "description": "Basic Tee",
-          "categories": "",
-          "rating": 0,
-          "quantity": 1,
-          "users": "3263"
-        },
-        {
-          "id": "a2a3",
-          "title": "Medium Stuff Satchel",
+          "id": "0270",
+          "title": "Just Herbs Complexion Pack",
           "href": "#",
           "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_pack.jpg?updatedAt=1712418088954",
           "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-          "price": 12000,
-          "discountPrice": 10000,
+          "price": 1000,
+          "discountPrice": 650,
           "color": "Black",
           "totalCount": 17,
-          "category": "tShirt",
-          "brand": "addidas",
+          "category": "Skincare",
+          "brand": "Just Herbs",
           "ratingAverage": 3.7,
           "shippingCost": 80,
           "stock": 2,
@@ -4180,53 +999,43 @@
             " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
             " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
           ],
-          "description": "Medium Stuff Satchel",
+          "description": "InstaGlow Almond Complexion Pack",
           "categories": "",
           "rating": 0,
           "quantity": 1,
-          "users": "3263"
+          "users": "dada"
         }
       ],
-      "totalAmount": 10660,
-      "totalItems": 2,
+      "totalAmount": 730,
+      "totalItems": 1,
       "user": {
-        "id": "3263",
-        "email": "shreya@gmail.com",
-        "password": "shreya@123",
+        "id": "dada",
+        "email": "pari@gmail.com",
+        "password": "pari@123",
         "role": "user",
         "addresses": [
           {
-            "name": "Arti chaurasiya",
-            "email": "arti@gmail.com",
-            "phone": "9044207635",
-            "street": "bhedaura maharajganj near bank of baroda ",
-            "city": "Azamgarh",
-            "state": "uttar pradesh",
-            "pinCode": "2231703",
-            "country": "India"
-          },
-          {
-            "name": "Shivam chaurasiya",
-            "email": "shivamshg1999@gmail.com",
-            "phone": "8957413082",
+            "name": "pari",
+            "email": "pari@gmail.com",
+            "phone": "7620625748",
             "country": "India",
-            "street": "dihwa bhadi,shahganj",
-            "city": "Shahganj",
-            "state": "uttar pradesh",
-            "pinCode": "223101"
+            "street": "IIIT Guwahatu",
+            "city": "guwahati",
+            "state": "Andhra Pradesh",
+            "pinCode": "781015"
           }
         ]
       },
       "paymentMethod": "card",
       "selectedAddress": {
-        "name": "Arti chaurasiya",
-        "email": "arti@gmail.com",
-        "phone": "9044207635",
-        "street": "bhedaura maharajganj near bank of baroda ",
-        "city": "Azamgarh",
-        "state": "uttar pradesh",
-        "pinCode": "2231703",
-        "country": "India"
+        "name": "pari",
+        "email": "pari@gmail.com",
+        "phone": "7620625748",
+        "country": "India",
+        "street": "IIIT Guwahatu",
+        "city": "guwahati",
+        "state": "Andhra Pradesh",
+        "pinCode": "781015"
       },
       "status": "pending"
     }
