@@ -1,6 +1,7 @@
 
 
-https://github.com/Shrey-12/Ayu/assets/98189346/3f05c68d-a829-4e6d-8a39-d8a2ce80ae29
+https://github.com/Shrey-12/Ayu/assets/98189346/e1eaa7af-8471-4ac0-b38c-49a8650063b5
+
 
 
 How to run this project ?
