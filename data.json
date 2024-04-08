@@ -82,9 +82,6 @@
       "category": "Skincare",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_serum.jpg?updatedAt=1712418088785",
       "images": [
-        "https://cdn.dummyjson.com/product-images/2/1.jpg",
-        "https://cdn.dummyjson.com/product-images/2/2.jpg",
-        "https://cdn.dummyjson.com/product-images/2/3.jpg"
       ],
       "categories": ""
     },
@@ -94,14 +91,13 @@
       "description": "24-hr Hydrating Organic Body Lotion",
       "price": 900,
       "discountPrice": 700,
+      "shippingCost": 700,
       "rating": 4.09,
       "stock": 36,
       "brand": "Bloom",
       "category": "Bodycare",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_lotion.png?updatedAt=1712418088731",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/3/1.jpg"
-      ]
+      "images": []
     },
     {
       "id": "6",
@@ -116,11 +112,7 @@
       "category": "Skincare",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_Serum.png?updatedAt=1712418088575",
       "images": [
-        "https://cdn.dummyjson.com/product-images/4/1.jpg",
-        "https://cdn.dummyjson.com/product-images/4/2.jpg",
-        "https://cdn.dummyjson.com/product-images/4/3.jpg",
-        "https://cdn.dummyjson.com/product-images/4/4.jpg",
-        "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+
       ]
     },
     {
@@ -132,12 +124,11 @@
       "rating": 4.09,
       "stock": 32,
       "brand": "Khadi Naturals",
+      "shippingCost": 700,
       "category": "SKincare",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/KN_facepack.jpg?updatedAt=1712497202928",
       "images": [
-        "https://cdn.dummyjson.com/product-images/5/1.jpg",
-        "https://cdn.dummyjson.com/product-images/5/2.jpg",
-        "https://cdn.dummyjson.com/product-images/5/3.jpg"
+
       ]
     },
     {
@@ -147,6 +138,7 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.57,
+      "shippingCost": 700,
       "stock": 83,
       "brand": "SoulTree",
       "category": "Haircare",
@@ -166,6 +158,7 @@
       "discountPrice": 700,
       "rating": 4.25,
       "stock": 50,
+      "shippingCost": 700,
       "brand": "Kama Ayurveda",
       "category": "Skincare",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/KA_cleanser.jpg?updatedAt=1712497203115",
@@ -184,6 +177,7 @@
       "discountPrice": 700,
       "rating": 4.43,
       "stock": 68,
+      "shippingCost": 700,
       "brand": "Kama Ayurveda",
       "category": "Skincare",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/KA_rosecleanser.jpg?updatedAt=1712497203233",
@@ -222,6 +216,7 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.43,
+      "shippingCost": 700,
       "stock": 89,
       "brand": "Kama Ayurveda",
       "category": "Bodycare",
@@ -242,6 +237,7 @@
       "price": 900,
       "discountPrice": 700,
       "color": "Black",
+      "shippingCost": 700,
       "category": "Medicines",
       "brand": "Jiva Ayurveda",
       "totalCount": 117,
@@ -255,6 +251,7 @@
       "imageAlt": "Front of men's Basic Tee in black.",
       "price": 550,
       "discountPrice": 450,
+      "shippingCost": 700,
       "color": "Black",
       "totalCount": 17,
       "category": "Medicines",
@@ -267,6 +264,7 @@
       "description": "Ayurvedic Digestive Syrup",
       "price": 549,
       "discountPrice": 449,
+      "shippingCost": 700,
       "rating": 4.69,
       "stock": 94,
       "brand": "Jiva Ayurveda",
@@ -288,6 +286,7 @@
       "discountPrice": 700,
       "rating": 4.44,
       "stock": 34,
+      "shippingCost": 700,
       "brand": "Khadi Naturals",
       "category": "Skincare",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/KN_cream.jpg?updatedAt=1712518968558",
@@ -305,13 +304,12 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.09,
+      "shippingCost": 700,
       "stock": 36,
       "brand": "Khadi Naturals",
       "category": "Haircare",
       "thumbnail": "https://ik.imagekit.io/whvypz4ih/ST_oil.jpg?updatedAt=1712518968339",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/3/1.jpg"
-      ]
+      "images": ["https://cdn.dummyjson.com/product-images/3/1.jpg"]
     },
     {
       "id": "18",
@@ -320,6 +318,7 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.3,
+      "shippingCost": 700,
       "stock": 123,
       "brand": "Soul Tree",
       "category": "Skincare",
@@ -339,6 +338,7 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.09,
+      "shippingCost": 700,
       "stock": 32,
       "brand": "Jiva Ayurveda",
       "category": "Medicines",
@@ -356,6 +356,7 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.57,
+      "shippingCost": 700,
       "stock": 83,
       "brand": "Jiva Ayurveda",
       "category": "Medicines",
@@ -374,6 +375,7 @@
       "description": "Raktavardhini Syrup",
       "price": 900,
       "discountPrice": 700,
+      "shippingCost": 700,
       "rating": 4.25,
       "stock": 50,
       "brand": "Jiva Ayurveda",
@@ -393,6 +395,7 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.43,
+      "shippingCost": 700,
       "stock": 68,
       "brand": "Aasha",
       "category": "Plants",
@@ -412,6 +415,7 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.54,
+      "shippingCost": 700,
       "stock": 96,
       "brand": "Aasha",
       "category": "Plants",
@@ -432,6 +436,7 @@
       "discountPrice": 700,
       "rating": 4.43,
       "stock": 89,
+      "shippingCost": 700,
       "brand": "Aasha",
       "category": "Plants",
       "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot3.jpg?updatedAt=1712599273074",
@@ -450,6 +455,7 @@
       "discountPrice": 700,
       "rating": 4.69,
       "stock": 94,
+      "shippingCost": 700,
       "brand": "Aasha",
       "category": "Plants",
       "thumbnail": "https://ik.imagekit.io/91yxvha4u/pot6.jpg?updatedAt=1712599273078",
@@ -468,6 +474,7 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.44,
+      "shippingCost": 700,
       "stock": 34,
       "brand": "Aasha",
       "category": "Plants",
@@ -486,6 +493,7 @@
       "price": 900,
       "discountPrice": 700,
       "rating": 4.09,
+      "shippingCost": 700,
       "stock": 36,
       "brand": "Aasha",
       "category": "Plants",
@@ -695,32 +703,6 @@
     }
   ],
   "cart": [
-    {
-      "id": "0270",
-      "title": "Just Herbs Complexion Pack",
-      "href": "#",
-      "thumbnail": "https://ik.imagekit.io/whvypz4ih/JH_pack.jpg?updatedAt=1712418088954",
-      "imageAlt": "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-      "price": 1000,
-      "discountPrice": 650,
-      "color": "Black",
-      "totalCount": 17,
-      "category": "Skincare",
-      "brand": "Just Herbs",
-      "ratingAverage": 3.7,
-      "shippingCost": 80,
-      "stock": 2,
-      "images": [
-        " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-        " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
-        " https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
-      ],
-      "description": "InstaGlow Almond Complexion Pack",
-      "categories": "",
-      "rating": 0,
-      "quantity": 1,
-      "users": "dada"
-    },
     {
       "id": "029b",
       "title": "Petunia",
