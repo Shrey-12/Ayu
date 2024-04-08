@@ -64,5 +64,12 @@
   .custom-file-upload:hover {
     background-color: #2f5548; /* Change background color on hover */
   }
-  
+
+  .custom-font
+  {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem; /* Font size */
+    color: white; /* Text color */
+
+  }
   
