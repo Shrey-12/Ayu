@@ -89,11 +89,11 @@ const CheckOut = () => {
           replace={true}
         ></Navigate>
       )}
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="bg-customGrey mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5">
           <div className="lg:col-span-3">
             <form
-              className="bg-white mt-20 p-10"
+              className="bg-customWhite mt-20 p-10"
               noValidate
               onSubmit={handleSubmit((data, e) => {
                 e.preventDefault();
@@ -109,14 +109,14 @@ const CheckOut = () => {
             >
               <div className="space-y-12">
                 <div className="border-b border-gray-900/10 mt-15 pb-12">
-                  <h2 className="text-2xl font-semibold leading-7 text-gray-900">
+                  <h2 className="cart-title text-3xl font-bold leading-7 text-gray-900">
                     Personal Information
                   </h2>
-                  <p className="mt-1 text-sm leading-6 text-gray-600">
+                  <p className="cart-desc mt-1 text-sm leading-6 text-gray-600">
                     Use a permanent address where you can receive mail.
                   </p>
 
-                  <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                  <div className="cart-head mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="sm:col-span-6">
                       <label
                         htmlFor="name"
@@ -273,16 +273,16 @@ const CheckOut = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="mt-10 flex items-center justify-end gap-x-6">
+                  <div className="cart-head mt-10 flex items-center justify-end gap-x-6">
                     <button
                       type="button"
-                      className="text-sm font-semibold leading-6 text-gray-900"
+                      className="text-m font-semibold leading-6 text-gray-900"
                     >
                       Reset
                     </button>
                     <button
                       type="submit"
-                      className="rounded-md bg-customGreen px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-customSage focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-customGreen"
+                      className="rounded-md bg-customSage px-3 py-2 text-m font-semibold text-white shadow-sm hover:bg-customMint focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-customGreen"
                     >
                       Add Address
                     </button>
@@ -290,13 +290,13 @@ const CheckOut = () => {
                 </div>
 
                 <div className="border-b border-gray-900/10 pb-12">
-                  <h2 className="text-base font-semibold leading-7 text-gray-900">
+                  <h2 className="cart-head text-base font-semibold leading-7 text-gray-900">
                     Address
                   </h2>
-                  <p className="mt-1 text-sm leading-6 text-gray-600">
+                  <p className="cart-desc mt-1 text-sm leading-6 text-gray-600">
                     Choose From Existing Address
                   </p>
-                  <ul role="list" className="divide-y divide-gray-100">
+                  <ul role="list" className="cart-desc divide-y divide-gray-100">
                     {user.addresses.map((address, index) => (
                       <li
                         key={index}
@@ -339,10 +339,10 @@ const CheckOut = () => {
 
                   <div className="mt-10 space-y-10">
                     <fieldset>
-                      <legend className="text-sm font-semibold leading-6 text-gray-900">
+                      <legend className="cart-head text-sm font-semibold leading-6 text-gray-900">
                         Payment Method
                       </legend>
-                      <p className="mt-1 text-sm leading-6 text-gray-600">
+                      <p className="cart-desc mt-1 text-sm leading-6 text-gray-600">
                         These are delivered via SMS to your mobile phone.
                       </p>
                       <div className="mt-4 space-y-6">
@@ -354,15 +354,15 @@ const CheckOut = () => {
                             name="payments"
                             type="radio"
                             disabled
-                            className="h-4 w-4 border-gray-300 text-customGreen focus:ring-customGreen"
+                            className="cart-desc h-4 w-4 border-gray-300 text-customGreen focus:ring-customGreen"
                           />
                           <label
                             htmlFor="push-everything"
-                            className="block text-sm font-medium leading-6 text-gray-900"
+                            className="cart-desc block text-sm font-medium leading-6 text-gray-900"
                           >
                             Cash
                           </label>
-                          <p className="truncate text-xs leading-5 text-gray-500">
+                          <p className="cart-desc truncate text-xs leading-5 text-gray-500">
                             Sorry Your Order is not eligible for Cash Payment
                           </p>
                         </div>
@@ -378,7 +378,7 @@ const CheckOut = () => {
                           />
                           <label
                             htmlFor="push-email"
-                            className="block text-sm font-medium leading-6 text-gray-900"
+                            className="cart-head block text-sm font-medium leading-6 text-gray-900"
                           >
                             Online Payment
                           </label>
@@ -392,11 +392,11 @@ const CheckOut = () => {
           </div>
           <div className="lg:col-span-2">
             <div className="mx-auto mt-20 bg-white max-w-7xl p-10 sm:p-6 lg-px-8">
-              <h1 className="text-3xl font-bold tracking-tight text-gray-900">
+              <h1 className="cart-title text-4xl font-bold tracking-tight text-gray-900">
                 {" "}
                 Shopping Cart
               </h1>
-              <div className="mt-8 border-t border-gray-200 px-4 py-6 sm:px-6">
+              <div className="cart-desc mt-8 border-t border-gray-200 px-4 py-6 sm:px-6">
                 <div className="flow-root">
                   <ul role="list" className="-my-6 divide-y divide-gray-200">
                     {items.map((item) => (
@@ -468,30 +468,30 @@ const CheckOut = () => {
               </div>
 
               <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
-              <div className="flex justify-between text-base font-medium text-gray-900">
+              <div className="cart-head flex justify-between text-base font-semibold text-gray-900">
                   <p>Shipping Cost</p>
                   <p>Rs. {items[0]?.shippingCost}</p>
                 </div>
-                <div className="flex justify-between text-base font-medium text-gray-900">
+                <div className="cart-head flex justify-between text-base font-semibold text-gray-900">
                   <p>Subtotal</p>
                   <p>Rs. {totalAmount}</p>
                 </div>
-                <div className="flex justify-between text-base font-medium text-gray-900">
+                <div className="cart-head flex justify-between text-base font-semibold text-gray-900">
                   <p>Total Items in Cart</p>
                   <p>{totalItems} items</p>
                 </div>
-                <p className="mt-0.5 text-sm text-gray-500">
+                <p className="cart-desc mt-0.5 text-sm text-gray-500">
                   Shipping and taxes calculated at checkout.
                 </p>
                 <div className="mt-6">
                   <div
                     onClick={handleOrder}
-                    className="flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-customGreen px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-customSage"
+                    className="cart-head flex cursor-pointer items-center justify-center border border-transparent bg-customSage px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-customMint"
                   >
                     Pay and Order
                   </div>
                 </div>
-                <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
+                <div className="cart-head mt-6 flex justify-center text-center text-sm text-gray-500">
                   <p>
                     or{" "}
                     <Link to="/">

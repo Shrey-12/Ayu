@@ -390,10 +390,17 @@
     },
     {
       "id": "22",
+<<<<<<< HEAD
       "title": "Turmeric Plant",
       "description": "Turmeric Plant",
       "price": 900,
       "discountPrice": 700,
+=======
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+>>>>>>> 7569d150c5beb939c4fc80736ce6e333f4dd93f5
       "rating": 4.43,
       "shippingCost": 700,
       "stock": 68,
@@ -410,10 +417,17 @@
     },
     {
       "id": "23",
+<<<<<<< HEAD
       "title": "Lemongrass",
       "description": "Lemon grass",
       "price": 900,
       "discountPrice": 700,
+=======
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+>>>>>>> 7569d150c5beb939c4fc80736ce6e333f4dd93f5
       "rating": 4.54,
       "shippingCost": 700,
       "stock": 96,
@@ -430,10 +444,17 @@
     },
     {
       "id": "24",
+<<<<<<< HEAD
       "title": "Petunia",
       "description": "Petunia",
       "price": 900,
       "discountPrice": 700,
+=======
+      "title": "HP Pavilion 15-DK1056WM",
+      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+      "price": 1099,
+      "discountPercentage": 6.18,
+>>>>>>> 7569d150c5beb939c4fc80736ce6e333f4dd93f5
       "rating": 4.43,
       "stock": 89,
       "shippingCost": 700,
@@ -449,10 +470,17 @@
     },
     {
       "id": "25",
+<<<<<<< HEAD
       "title": "Spinach",
       "description": "Palak",
       "price": 900,
       "discountPrice": 700,
+=======
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPrice": 449,
+>>>>>>> 7569d150c5beb939c4fc80736ce6e333f4dd93f5
       "rating": 4.69,
       "stock": 94,
       "shippingCost": 700,
@@ -469,10 +497,17 @@
     },
     {
       "id": "26",
+<<<<<<< HEAD
       "title": "Papaya",
       "description": "Papaya",
       "price": 900,
       "discountPrice": 700,
+=======
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+>>>>>>> 7569d150c5beb939c4fc80736ce6e333f4dd93f5
       "rating": 4.44,
       "shippingCost": 700,
       "stock": 34,
@@ -488,10 +523,17 @@
     },
     {
       "id": "27",
+<<<<<<< HEAD
       "title": "Coconut",
       "description": "Coconut",
       "price": 900,
       "discountPrice": 700,
+=======
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+>>>>>>> 7569d150c5beb939c4fc80736ce6e333f4dd93f5
       "rating": 4.09,
       "shippingCost": 700,
       "stock": 36,
@@ -501,6 +543,7 @@
       "images": [
         "https://ik.imagekit.io/91yxvha4u/pot5.jpg?updatedAt=1712599272833"
       ]
+<<<<<<< HEAD
     },
     {
       "id": "28",
@@ -539,6 +582,8 @@
         "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910",
         "https://ik.imagekit.io/91yxvha4u/pot7.jpg?updatedAt=1712599272910"
       ]
+=======
+>>>>>>> 7569d150c5beb939c4fc80736ce6e333f4dd93f5
     }
   ],
   "brands": [
@@ -1018,6 +1063,86 @@
         "city": "guwahati",
         "state": "Andhra Pradesh",
         "pinCode": "781015"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "2fbd",
+      "items": [
+        {
+          "id": "72d8",
+          "title": "Basic Tee",
+          "href": "#",
+          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_showergel-F.png?updatedAt=1712417696793",
+          "imageAlt": "Front of men's Basic Tee in black.",
+          "price": 900,
+          "discountPrice": 500,
+          "color": "Black",
+          "category": "tShirt",
+          "brand": "puma",
+          "totalCount": 117,
+          "ratingAverage": 4,
+          "shippingCost": 80,
+          "stock": 32,
+          "images": [
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+            "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+          ],
+          "description": "Basic Tee",
+          "categories": "",
+          "rating": 0,
+          "quantity": 3,
+          "users": "b501"
+        },
+        {
+          "id": "315f",
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://ik.imagekit.io/whvypz4ih/B_lotion.png?updatedAt=1712418088731",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/3/1.jpg"
+          ],
+          "quantity": 1,
+          "users": "b501"
+        }
+      ],
+      "totalAmount": null,
+      "totalItems": 4,
+      "user": {
+        "id": "b501",
+        "email": "navya@gmail.com",
+        "password": "navya@123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "navya dhawde",
+            "email": "navya@gmail.com",
+            "phone": "9044207635",
+            "country": "India",
+            "street": "dihwa bhadi",
+            "city": "shahaganj",
+            "state": "uttar pradesh",
+            "pinCode": "223101"
+          }
+        ]
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "navya dhawde",
+        "email": "navya@gmail.com",
+        "phone": "9044207635",
+        "country": "India",
+        "street": "dihwa bhadi",
+        "city": "shahaganj",
+        "state": "uttar pradesh",
+        "pinCode": "223101"
       },
       "status": "pending"
     }

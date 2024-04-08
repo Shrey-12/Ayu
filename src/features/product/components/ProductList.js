@@ -45,6 +45,7 @@ export default function ProductList() {
   const brands = useSelector(selectBrands);
   const categories = useSelector(selectCategories);
 
+
   const filters = [
     {
       id: "category",
