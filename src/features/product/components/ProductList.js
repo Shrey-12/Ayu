@@ -1,10 +1,10 @@
 import React, { useState, Fragment, useEffect } from "react";
-import "./ProductList.css"
+import "./ProductList.css";
 import Pagination from "../../common/pagination";
-import AyuLogo from '../../../assets/images/AyuLogo.png'
-import productLogo from '../../../assets/images/productLogo.png'
-import productplant1 from '../../../assets/images/productplant1.png'
-import media from '../../../assets/images/media.png'
+import AyuLogo from "../../../assets/images/AyuLogo.png";
+import productLogo from "../../../assets/images/productLogo.png";
+import productplant1 from "../../../assets/images/productplant1.png";
+import media from "../../../assets/images/media.png";
 import { useSelector, useDispatch } from "react-redux";
 import {
   selectAllProducts,
@@ -13,21 +13,19 @@ import {
   selectBrands,
   selectCategories,
   fetchBrandsAsync,
-  fetchCategoriesAsync
+  fetchCategoriesAsync,
 } from "../productSlice";
 import { Dialog, Disclosure, Menu, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { StarIcon } from "@heroicons/react/20/solid";
 import {
   ChevronDownIcon,
-  ChevronRightIcon,
-  ChevronLeftIcon,
   FunnelIcon,
   MinusIcon,
   PlusIcon,
   Squares2X2Icon,
 } from "@heroicons/react/20/solid";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { ITEM_PER_PAGE } from "../../../app/constants";
 import { useLocation } from "react-router-dom";
 
@@ -36,10 +34,6 @@ const sortOptions = [
   { name: "Price: Low to High", sort: "price", order: "asc", current: false },
   { name: "Price: High to Low", sort: "-price", order: "desc", current: false },
 ];
-
-
-
-
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -74,19 +68,6 @@ export default function ProductList() {
       name: "Brands",
       options: brands,
     },
-  
-    // {
-    //   id: "size",
-    //   name: "Size",
-    //   options: [
-    //     { value: "2l", label: "2L", checked: false },
-    //     { value: "6l", label: "6L", checked: false },
-    //     { value: "12l", label: "12L", checked: false },
-    //     { value: "18l", label: "18L", checked: false },
-    //     { value: "20l", label: "20L", checked: false },
-    //     { value: "40l", label: "40L", checked: true },
-    //   ],
-    // },
   ];
 
   const [filter, setFilter] = useState({});
@@ -108,6 +89,7 @@ export default function ProductList() {
       );
       newFilter[section.id].splice(index, 1);
     }
+    console.log(newFilter);
     setFilter(newFilter);
   };
 
@@ -121,7 +103,20 @@ export default function ProductList() {
     setPage(page);
   };
 
-  
+  const location = useLocation();
+  useEffect(() => {
+    if (location.state && location.state.val) {
+      const type = location.state.val;
+      location.state.val = null;
+      const newFilter = { ...filter };
+      if (newFilter[0]) {
+        newFilter["category"].push(type);
+      } else {
+        newFilter["category"] = [type];
+      }
+      setFilter(newFilter);
+    }
+  }, [location, filter]);
 
   useEffect(() => {
     // Fetch products whenever filter,sort or  page changes
@@ -133,10 +128,10 @@ export default function ProductList() {
     setPage(1);
   }, [totalItems, sort]);
 
-  useEffect(()=>{
+  useEffect(() => {
     dispatch(fetchBrandsAsync());
     dispatch(fetchCategoriesAsync());
-  },[dispatch])
+  }, [dispatch]);
 
   const [fadeIn, setFadeIn] = useState(false);
   useEffect(() => {
@@ -152,47 +147,52 @@ export default function ProductList() {
             handleFilter={handleFilter}
             mobileFiltersOpen={mobileFiltersOpen}
             setMobileFiltersOpen={setMobileFiltersOpen}
-            filters ={filters}
+            filters={filters}
           />
 
           <main className="mx-auto max-w-7xl">
-          <div className={`product-logo-parent ${fadeIn ? 'fade-in' : ''}`}>
-               <img src={productLogo} className="ayu-logo" style={{ width: '100%', height: '100%' }} />
-               <div className="overlay-text" >
-                <h1 className="product-image-text" > 
-                Discover
-                Natural
-                Excellence
+            <div className={`product-logo-parent ${fadeIn ? "fade-in" : ""}`}>
+              <img
+                src={productLogo}
+                className="ayu-logo"
+                style={{ width: "100%", height: "100%" }}
+              />
+              <div className="overlay-text">
+                <h1 className="product-image-text">
+                  Discover Natural Excellence
                 </h1>
-                </div>
+              </div>
             </div>
-            <div className='product-rec-box'>
-      <div className='grid grid-cols-1 md:grid-cols-3'>
-      <div className="flex-grow items-centre bg-customGreen py-4">
-        <h2 className='product-rec-text'
-        style={{ fontSize: '2rem', textAlign:'center' }}>
-        Natural
-        </h2>
-
-        </div>
-        <div className="flex-grow items-centre  bg-customGreen py-4">
-        <h3 className='product-rec-text'
-        style={{ fontSize: '2rem', textAlign:'center' }}>
-        Vegan
-        </h3>
-        </div>
-        <div className="flex-grow items-centre bg-customGreen py-4">
-        <h5 className='product-rec-text'
-        style={{ fontSize: '2rem', textAlign:'center' }}>
-        Ecofriendly     
-        </h5>
-        </div>
-        </div>
-      </div>
+            <div className="product-rec-box">
+              <div className="grid grid-cols-1 md:grid-cols-3">
+                <div className="flex-grow items-centre bg-customGreen py-4">
+                  <h2
+                    className="product-rec-text"
+                    style={{ fontSize: "2rem", textAlign: "center" }}
+                  >
+                    Natural
+                  </h2>
+                </div>
+                <div className="flex-grow items-centre  bg-customGreen py-4">
+                  <h3
+                    className="product-rec-text"
+                    style={{ fontSize: "2rem", textAlign: "center" }}
+                  >
+                    Vegan
+                  </h3>
+                </div>
+                <div className="flex-grow items-centre bg-customGreen py-4">
+                  <h5
+                    className="product-rec-text"
+                    style={{ fontSize: "2rem", textAlign: "center" }}
+                  >
+                    Ecofriendly
+                  </h5>
+                </div>
+              </div>
+            </div>
             <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-5 px-10">
-              <h1 className=" product-head-text">
-                New Arrivals
-              </h1>
+              <h1 className=" product-head-text">New Arrivals</h1>
               <div className="flex items-center">
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
@@ -258,13 +258,16 @@ export default function ProductList() {
               </div>
             </div>
 
-            <section aria-labelledby="products-heading" className="pb-24 pt-6 px-10">
+            <section
+              aria-labelledby="products-heading"
+              className="pb-24 pt-6 px-10"
+            >
               <h2 id="products-heading" className="sr-only">
                 Products
               </h2>
 
               <div className="grid grid-cols-1 gap-x-10 gap-y-14 lg:grid-cols-4">
-                <DesktopFilter handleFilter={handleFilter} filters={filters}/>
+                <DesktopFilter handleFilter={handleFilter} filters={filters} />
                 {/*=====================================================================================Web page Filters */}
 
                 {/* Product grid --------------------------------------------------*/}
@@ -286,54 +289,128 @@ export default function ProductList() {
               totalItems={totalItems}
             />
             <div className="product-plant-box">
-               <img src={productplant1} className="plant-img" style={{ width: '100%', height: '100%' }} />
-               <div className="product-plant-text" style={{justifyItems:'center' , alignItems: 'center', display: 'flex', flexDirection: 'column', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                <h1 className="pro-plant-head " style={{ fontSize:  '4vw' , textAlign: 'center' }}>
-                  Explore our range of plants</h1>
-                  <h2 className="product-text">
+              <img
+                src={productplant1}
+                className="plant-img"
+                style={{ width: "100%", height: "100%" }}
+              />
+              <div
+                className="product-plant-text"
+                style={{
+                  justifyItems: "center",
+                  alignItems: "center",
+                  display: "flex",
+                  flexDirection: "column",
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                }}
+              >
+                <h1
+                  className="pro-plant-head "
+                  style={{ fontSize: "4vw", textAlign: "center" }}
+                >
+                  Explore our range of plants
+                </h1>
+                <h2 className="product-text">
                   Take a tour through our wide-ranging plant collection.
-                  </h2>
-                  <Link to = "/plant-identification">
+                </h2>
+                <Link to="/plant-identification">
                   <div className="explore-button mt-5 mb-5">
-                  <span>EXPLORE</span>
+                    <span>EXPLORE</span>
                   </div>
-                  </Link>
-                </div>
+                </Link>
+              </div>
             </div>
-            <div className='home-footer bg-customGreen py-4' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <div className="Ayurveda-logo mb-3">
-    <img src={AyuLogo} className="Ayulogoimg" style={{ width: '150px', height: '100%' }} />
-  </div>
-  <div className="flex mb-5 px-10" style={{ width: '100%' }}>
-    <div className='ml-14' style={{ width: '33.33%' }}>
-      <h1 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> CONTACT US </h1>
-      <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
-        +91 9752356347 <br/>
-        +91 7238743826
-      </p>
-    </div>
-    <div className='ml-14' style={{ width: '33.33%' }}>
-      <h2 className='home-footer-head mr-24' style={{ fontSize: '0.7rem' }}> ADDRESS </h2>
-      <p className='home-footer-text mt-2' style={{ fontSize: '0.6rem' }}>
-        Girls' Hostel, IIIT <br/>
-        Bongora, Guwahati, <br/>
-        781015
-      </p>
-    </div>
-    <div className='ml-14' style={{ width: '33.33%' }}>
-      <h3 className='home-footer-head mr-24 ' style={{ fontSize: '0.7rem' }}> EMAIL </h3>
-      <p className='home-footer-text mt-2 ' style={{ fontSize: '0.6rem' }}>
-        navya.dhawde21b@iiitg.ac.in 
-      </p>
-    </div>
-  </div>
-  <div style={{ width: '100%' }}>
-    <h4 className='home-footer-head py-2 mt-1' style={{ fontSize: '0.7rem', textAlign: 'center' }}>CONNECT WITH US</h4>
-  </div>
-  <div className='social-media-img py-2' style={{ width: '100%',display: 'flex', justifyContent: 'center'  }}>
-    <img src={media} className="socialimg" style={{ width: '100px', height: '100%' }} />
-  </div>
-</div>
+            <div
+              className="home-footer bg-customGreen py-4"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <div className="Ayurveda-logo mb-3">
+                <img
+                  src={AyuLogo}
+                  className="Ayulogoimg"
+                  style={{ width: "150px", height: "100%" }}
+                />
+              </div>
+              <div className="flex mb-5 px-10" style={{ width: "100%" }}>
+                <div className="ml-14" style={{ width: "33.33%" }}>
+                  <h1
+                    className="home-footer-head mr-24"
+                    style={{ fontSize: "0.7rem" }}
+                  >
+                    {" "}
+                    CONTACT US{" "}
+                  </h1>
+                  <p
+                    className="home-footer-text mt-2"
+                    style={{ fontSize: "0.6rem" }}
+                  >
+                    +91 9752356347 <br />
+                    +91 7238743826
+                  </p>
+                </div>
+                <div className="ml-14" style={{ width: "33.33%" }}>
+                  <h2
+                    className="home-footer-head mr-24"
+                    style={{ fontSize: "0.7rem" }}
+                  >
+                    {" "}
+                    ADDRESS{" "}
+                  </h2>
+                  <p
+                    className="home-footer-text mt-2"
+                    style={{ fontSize: "0.6rem" }}
+                  >
+                    Girls' Hostel, IIIT <br />
+                    Bongora, Guwahati, <br />
+                    781015
+                  </p>
+                </div>
+                <div className="ml-14" style={{ width: "33.33%" }}>
+                  <h3
+                    className="home-footer-head mr-24 "
+                    style={{ fontSize: "0.7rem" }}
+                  >
+                    {" "}
+                    EMAIL{" "}
+                  </h3>
+                  <p
+                    className="home-footer-text mt-2 "
+                    style={{ fontSize: "0.6rem" }}
+                  >
+                    navya.dhawde21b@iiitg.ac.in
+                  </p>
+                </div>
+              </div>
+              <div style={{ width: "100%" }}>
+                <h4
+                  className="home-footer-head py-2 mt-1"
+                  style={{ fontSize: "0.7rem", textAlign: "center" }}
+                >
+                  CONNECT WITH US
+                </h4>
+              </div>
+              <div
+                className="social-media-img py-2"
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <img
+                  src={media}
+                  className="socialimg"
+                  style={{ width: "100px", height: "100%" }}
+                />
+              </div>
+            </div>
           </main>
         </div>
       </div>
@@ -463,7 +540,7 @@ function MobileFilter({
   );
 }
 
-function DesktopFilter({ handleFilter, filters}) {
+function DesktopFilter({ handleFilter, filters }) {
   return (
     <>
       <form className="hidden lg:block">
@@ -532,7 +609,7 @@ function ProductGrid({ data }) {
       <div className="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-2 lg:max-w-7xl lg:px-8">
         <div className="mt-6 grid grid-cols-2 gap-x-6 lg:gap-y-20 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 ">
           {data.map((product) => (
-            <Link to= {`/productDetailsPage/${product.id}`} key={product.id}>
+            <Link to={`/productDetailsPage/${product.id}`} key={product.id}>
               <div className="group relative">
                 <span className="mx-2 my-2 absolute inline-flex z-40 items-center rounded-md bg-customMint px-2 py-1 text-xs font-medium text-gray-500 ring-1 ring-inset ring-gray-500/10">
                   {product.discountPrice
@@ -550,7 +627,10 @@ function ProductGrid({ data }) {
                 </div>
                 <div className="mt-6 flex justify-between px-3">
                   <div>
-                    <h2 className="text-sm text-gray-700" style={{ fontSize: '0.85rem' }}>
+                    <h2
+                      className="text-sm text-gray-700"
+                      style={{ fontSize: "0.85rem" }}
+                    >
                       <div href={product.thumbnail}>
                         <span aria-hidden="true" className="absolute inset-0" />
                         {product.title}
@@ -583,7 +663,10 @@ function ProductGrid({ data }) {
                     </div>
                   </div>
                   <div className="text-base">
-                    <p className="text-sm font-medium text-gray-900" style={{ fontSize: '0.85rem' }}>
+                    <p
+                      className="text-sm font-medium text-gray-900"
+                      style={{ fontSize: "0.85rem" }}
+                    >
                       {product.discountPrice
                         ? `Rs. ${product.discountPrice}`
                         : ""}
@@ -593,7 +676,8 @@ function ProductGrid({ data }) {
                         product.discountPrice
                           ? "text-sm font-medium text-gray-400 line-through"
                           : "text-sm font-medium text-gray-900"
-                      } style={{ fontSize: '0.85rem' }}
+                      }
+                      style={{ fontSize: "0.85rem" }}
                     >
                       Rs. {product.price}
                     </p>

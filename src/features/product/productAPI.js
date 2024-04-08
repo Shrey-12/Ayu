@@ -49,7 +49,7 @@ export function fetchCategories(){
   return new Promise(async(resolve)=>{
     const response = await fetch('http://localhost:8080/categories')
     const data = await response.json();
-    console.log(data)
+    // console.log(data)
     resolve({data})
   })
 }
@@ -97,4 +97,19 @@ export function updateProduct(update){
     const data = await response.json();
     resolve({data})
   })
+}
+
+
+export function fetchSkincare() {
+  return new Promise(async (resolve) => {
+    try {
+      const response = await fetch('http://localhost:8080/products?category=Skincare');
+      const data = await response.json();
+      // console.log('Skincare',data)
+      resolve({ data });
+    } catch (error) {
+      console.error('Error fetching skincare products:', error);
+      resolve({ error: 'Failed to fetch skincare products' });
+    }
+  });
 }
