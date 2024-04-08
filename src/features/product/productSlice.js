@@ -43,6 +43,7 @@ export const fetchCategoriesAsync = createAsyncThunk(
   }
 );
 
+
 export const fetchProductByIdAsync = createAsyncThunk(
   'product/fetchProductById',
   async(id)=>{
