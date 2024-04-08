@@ -87,29 +87,21 @@ const Intro = () => {
             </div>
        </div>
       </div>
-      <div className='home-products bg-customWhite' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: '20px'}}>
-        <h1 className='home-producthead-text ' style={{ fontSize: '2.3rem'}}>
+      <div className='home-products bg-customWhite' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding:'50px'}}>
+        <h1 className='home-producthead-text my-6' style={{ fontSize: '2.3rem'}}>
           OUR PRODUCTS
         </h1>
         <div className='flex justify-center'>
           <div className='skincare ml-10 mr-10' style={{textAlign: 'center'}}>
           
             <img src={skincareimg} className="skincare-img" style={{ width: '150px', height: '100%' }} alt="Skincare"/>
-           <div className='home-rounded-box mt-5'>
-            <h1> SKINCARE</h1>
-          </div>
+            <Link to="/shop?categoryId=bf2a">Shop Skincare</Link>
           </div>
           <div className='health ml-10 mr-10' style={{ textAlign: 'center'}}>
             <img src={medimg} className="healthcare-img" style={{ width: '150px', height: '100%' }} alt="Health"/>
-            <div className='home-rounded-box mt-5'>
-            <h1> HEALTH</h1>
-            </div>
           </div>
           <div className='plants ml-10 mr-10' style={{textAlign: 'center' }}>
             <img src={plantimg} className="plants-img" style={{ width: '150px', height: '100%' }} alt="Plants"/>
-            <div className='home-rounded-box mt-5'>
-            <h1> PLANTS</h1>
-            </div>
           </div>
         </div>
       </div>
