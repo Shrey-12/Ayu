@@ -47,4 +47,6 @@ incase of errors change files CheckoutForm.js =>
  ```
 return_url: `http://localhost:3000/orderSuccess/${currentOrder.id}`,
 ```
+python version: 3.10.12
+tensorflow version: 2.15.0
 
