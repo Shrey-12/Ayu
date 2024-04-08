@@ -11,9 +11,54 @@ import plantimg from '../../assets/images/plantimg.png'
 import skincareimg from '../../assets/images/skincareimg.png'
 import media from '../../assets/images/media.png'
 import welcome from '../../assets/images/welcome.jpg'
-import { Link } from 'react-router-dom';
+import { Link,useNavigate} from 'react-router-dom';
+
 
 const Intro = () => {
+  const navigate = useNavigate(); 
+
+  const handleSkincareClick = async () => {
+    try {
+      // await dispatch(fetchSkincareAsync());
+      const val = "Skincare";
+      navigate('/shop',{
+        state: {val}
+      }
+)
+    } catch (error) {
+      console.error('Error fetching skincare products:', error);
+      // Handle error if needed
+    }
+  };
+
+  const handleMedicinesClick = async () => {
+    try {
+      // await dispatch(fetchSkincareAsync());
+      const val = "Medicines";
+      navigate('/shop',{
+        state: {val}
+      }
+)
+    } catch (error) {
+      console.error('Error fetching skincare products:', error);
+      // Handle error if needed
+    }
+  };
+
+  
+  const handlePlantsClick = async () => {
+    try {
+      // await dispatch(fetchSkincareAsync());
+      const val = "Plants";
+      navigate('/shop',{
+        state: {val}
+      }
+)
+    } catch (error) {
+      console.error('Error fetching skincare products:', error);
+      // Handle error if needed
+    }
+  };
   return (
     <div>
       <div className="flex items-center justify-center flex-col">
@@ -95,11 +140,11 @@ const Intro = () => {
           <div className='skincare ml-10 mr-10' style={{textAlign: 'center'}}>
           
             <img src={skincareimg} className="skincare-img" style={{ width: '150px', height: '100%' }} alt="Skincare"/>
-           <div className='home-rounded-box mt-5'>
+           <div className='home-rounded-box mt-5' onClick={handleSkincareClick}>
             <h1> SKINCARE</h1>
           </div>
           </div>
-          <div className='health ml-10 mr-10' style={{ textAlign: 'center'}}>
+          <div className='health ml-10 mr-10' style={{ textAlign: 'center'}} onClick={handleMedicinesClick}>
             <img src={medimg} className="healthcare-img" style={{ width: '150px', height: '100%' }} alt="Health"/>
             <div className='home-rounded-box mt-5'>
             <h1> HEALTH</h1>
