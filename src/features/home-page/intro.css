@@ -159,7 +159,7 @@
 }
 
 .home-product-box:hover {
-  transform: scale(1.08); /* Increase scale on hover */
+  transform: scale(1.1); /* Increase scale on hover */
 }
 
 .home-pro-text {

@@ -600,7 +600,7 @@ function ProductGrid({ data }) {
           {data.map((product) => (
             <Link to={`/productDetailsPage/${product.id}`} key={product.id}>
               <div className="group relative">
-                <span className="mx-2 my-2 absolute inline-flex z-40 items-center rounded-md bg-customMint px-2 py-1 text-xs font-medium text-gray-500 ring-1 ring-inset ring-gray-500/10">
+                <span className="mx-2 my-2  inline-flex z-40 items-center rounded-md bg-customMint px-2 py-1 text-xs font-medium text-gray-500 ring-1 ring-inset ring-gray-500/10">
                   {product.discountPrice
                     ? `Discount ${Math.round(
                         (1 - product.discountPrice / product.price) * 100
