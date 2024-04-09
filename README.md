@@ -1,6 +1,9 @@
 
 
-https://github.com/Shrey-12/Ayu/assets/98189346/3f05c68d-a829-4e6d-8a39-d8a2ce80ae29
+
+
+
+https://github.com/Shrey-12/Ayu/assets/98189346/e3bd04f0-66dd-462b-9367-5073d5e6504b
 
 
 How to run this project ?
@@ -47,4 +50,6 @@ incase of errors change files CheckoutForm.js =>
  ```
 return_url: `http://localhost:3000/orderSuccess/${currentOrder.id}`,
 ```
+python version: 3.10.12
+tensorflow version: 2.15.0
 
